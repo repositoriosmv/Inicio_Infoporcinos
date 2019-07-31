@@ -1,0 +1,760 @@
+.nav{
+
+ background-color:  #212121!important;
+ width: 1920px;
+
+}
+.mail{
+    width: 24px;
+    height: 24px;
+    margin-left: 6.4%;
+}
+
+
+.phone{
+
+    width: 24px;
+    height: 24px; 
+    margin-left: 10.4%;
+
+}
+
+.navbar-brand
+{
+  font-size: 12px;
+  font-family: "Roboto";
+  position: absolute;
+  left: 163px;
+  overflow: visible;
+
+}
+
+.id
+{
+    position: absolute;
+    left: 387px;
+    top: 13px;
+    overflow: visible;
+    width: 98px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(253,253,253,1);
+
+
+}
+
+
+.logo
+{
+    margin-left: 6.4%;
+    width: 132.75px;
+    height: 40px;
+}
+
+.container-fluid
+
+{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #212121;
+    width: 1920px;
+    height: 214.8px;
+    margin-bottom: -979px;
+    margin-top: 979px;
+
+}
+
+.f
+
+{
+    background-color: #707070; 
+    height: 50px;
+}
+
+.tt
+{
+    font-family: Raleway;
+    color: #DD9835;
+    font-size: 18px;
+
+}
+
+.tst
+{
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 12px;
+
+}
+
+.tstfoot
+{
+    font-family: Roboto;
+    color: #FDFDFD;
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+
+}
+
+
+.title
+{
+
+    font-family: Raleway;
+    color: #DD9835;
+    font-size: 18px;
+
+}
+
+.firstdiv
+
+{
+
+
+
+}
+
+.secondiv
+
+{
+
+    position: relative;
+    margin: -57px 0 0 340px;
+
+}
+
+.logof
+
+{
+    width: 333.95px;
+    height: 103.34px;
+
+}
+
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+.nav2
+{
+    width: 1920px;
+    height: 50.34px;
+}
+
+.logop
+{
+
+    width: 132.75px;
+    height: 40px;
+    margin-left:127.9px;
+    
+
+}
+
+.Buttons
+{
+    position: absolute;
+    font-family: Raleway;
+    font-size: 12px;
+    left: 956px;
+    top: -9px;
+}
+
+
+.iniciarses
+{
+    background-color: #DD9835;
+    border-radius: 57px;
+    border: #DD9835;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 11px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+}
+
+
+
+
+.pigsinicio
+{
+
+    width:1920px;
+    clip-path: polygon(0 0, 0% 142%, 100% 0);
+    height: 913.54px;
+    display: inline-block;
+    
+
+}
+
+.desk
+{
+    position: absolute;
+    margin-top: -701px;
+    margin-left: 1088px;
+    width: 1044px;
+    height: 654px;
+
+
+}
+
+.t1
+{
+
+font-size: 20px;
+font-family: Raleway;
+margin-left: 267px;
+margin-top: -525px;
+display: inline-block;
+position: absolute;
+color: #FFFFFF;
+
+}
+
+.t2
+{
+
+    font-size: 50px;
+    font-family: Raleway;
+    margin-left: 267px;
+    margin-top: -496px;
+    display: inline-block;
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+
+.t3
+{
+
+    font-size: 50px;
+    font-family: Raleway;
+    margin-left: 576px;
+    margin-top: -420px;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+    font-weight: bold;
+
+}
+
+
+.t4
+{
+
+    font-size: 14px;
+    font-family: Raleway;
+    margin-left: 804px;
+    margin-top: 142px;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+    
+
+}
+
+.t5
+{
+
+    font-size: 30px;
+    font-family: Raleway;
+    margin-left: 750px;
+    margin-top: 161px;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+    font-weight: bold;
+
+}
+
+.t6
+{
+
+    font-size: 16px;
+    font-family: Roboto;
+    margin-left: 576px;
+    margin-top: 217px;
+    display: inline-block;
+    color: #767676;
+   
+
+}
+
+.ButtonAcerca
+{
+    background-color: #DD9835;
+    border-radius: 57px;
+    border: #DD9835;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    padding: 11px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin-left: 837px;
+
+
+}
+
+
+.einteresado
+
+{
+ 
+    background-color: transparent;
+    border-radius: 52px;
+    border: 1px solid #DD9835;
+    display: inline-block;
+    cursor: pointer;
+    color: #DD9835;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 23px 39px;
+    text-decoration: none;
+    width: 170px;
+    height: 31px;
+    margin-top: 10px;
+}
+
+
+.container1
+
+{
+
+    background-color: #212121;
+    width: 1920px;
+    height: 500px;
+    margin-bottom: 39px;
+    margin-top: 297px;
+
+}
+
+
+.container2
+
+{
+    background-color: #FFFFFF;
+    height: 259px;
+    width: 1127px;
+    margin-bottom: 86px;
+    margin-top: 218px;
+    margin-left: 314px;
+    margin-right: 292px;
+    position: absolute;
+
+}
+
+.text10
+{
+    font-size: 51px;
+    font-family: Roboto;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+    font-weight: bold;
+    margin-left: 174px;
+    width: 82px;
+    height: 45px;
+    margin-top: 64px;
+
+}
+
+.text11
+{
+    font-size: 50px;
+    font-family: Roboto;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+    font-weight: bold;
+    margin-left: 491px;
+    margin-top: 66px;
+
+}
+
+.text12
+{
+    font-size: 51px;
+    font-family: Roboto;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+    font-weight: bold;
+    margin-left: 895px;
+    margin-top: 65px;
+
+}
+
+
+.text13
+{
+    font-size: 14px;
+    font-family: Roboto;
+    display: inline-block;
+    position: absolute;
+    color: #767676;
+    font-weight: bold;
+    margin-left: 143px;
+    margin-top: 160px;
+
+
+}
+.text14
+{
+    font-size: 14px;
+    font-family: Roboto;
+    display: inline-block;
+    position: absolute;
+    color: #767676;
+    font-weight: bold;
+    margin-left: 523px;
+    margin-top: 159px;
+}
+.text15
+{
+    font-size: 14px;
+    font-family: Roboto;
+    display: inline-block;
+    position: absolute;
+    color: #767676;
+    font-weight: bold;
+    margin-left: 895px;
+    margin-top: 158px;
+
+}
+
+.text16
+{
+
+    font-size: 20px;
+    font-family: Raleway;
+    margin-left: 462px;
+    margin-top: -313px;
+    display: inline-block;
+    position: absolute;
+    color: #FFFFFF;
+
+}
+
+.text17
+{
+
+    font-size: 50px;
+    font-family: Raleway;
+    margin-left: 647px;
+    margin-top: -269px;
+    display: inline-block;
+    position: absolute;
+    color: #FFFFFF;
+
+}
+
+.text18
+{
+
+    font-size: 50px;
+    font-family: Raleway;
+    margin-left: 996px;
+    margin-top: -269px;
+    display: inline-block;
+    position: absolute;
+    color: #DD9835;
+
+}
+
+
+.container3
+
+{
+    background-color: #FFFFFF;
+    height: 238px;
+    width: 400px;
+    margin-top: -142px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 230px;
+        
+
+}
+
+.container4
+
+{
+    background-color: #FFFFFF;
+    height: 238px;
+    width: 400px;
+    margin-top: -142px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1232px;
+        
+
+}
+
+.container5
+
+{
+    background-color: #FFFFFF;
+    height: 238px;
+    width: 400px;
+    margin-top: -142px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 721px;
+        
+
+}
+
+
+.text19
+
+{
+    font-size: 18px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    font-weight: bold;
+    margin-left: 94px;
+    margin-top: 29px;
+}
+
+.text20
+{
+    font-size: 18px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    font-weight: bold;
+    margin-left: 108px;
+    margin-top: 26px;
+}
+
+.text21
+{
+    font-size: 18px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    font-weight: bold;
+    margin-left: 119px;
+    margin-top: 28px;
+
+}
+
+.text22
+{
+    font-size: 14px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #707070;
+    font-weight: bold;
+    margin-left: 11px;
+    margin-top: 77px;
+}
+
+
+
+.text23
+{
+    font-size: 14px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #707070;
+    font-weight: bold;
+    margin-left: 79px;
+    margin-top: 77px;
+
+}
+
+
+.text24
+{
+    font-size: 14px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #707070;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 78px;
+    text-align: center;
+}
+
+
+
+.keyp
+{
+
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.passp
+{
+
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+.processp
+
+{
+
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.circulo
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 54%;
+    background: #DD9835;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 174px;
+    margin-top: 25px;
+
+}
+
+.iconos
+
+{
+    width: 30px;
+   
+
+}
+
+.text25
+{
+    font-size: 14px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    font-weight: normal;
+    margin-left: 835px;
+    margin-top: 179px;
+}
+
+.text26
+{
+    font-size: 40px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    
+    margin-left: 689px;
+    margin-top: 186px;
+    font-weight: bold;
+}
+
+
+.box2
+{
+    margin-left: 174px;
+    margin-top: 395px;
+
+    
+}
+
+.circulo2
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 54%;
+    background: #212121;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 174px;
+    margin-top: 25px;
+
+}
+
+.iconos2
+
+{
+    width: 30px;
+    
+   
+
+}
+
+
+.item2
+{
+
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+
+.textos
+{
+
+    font-size: 21px;
+    font-family: Raleway;
+    display: inline-block;
+    position: absolute;
+    color: #212121;
+    margin-left: 689px;
+    margin-top: 186px;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
