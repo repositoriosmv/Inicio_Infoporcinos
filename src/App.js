@@ -14,6 +14,7 @@ import check from '../src/icons/check.svg';
 import user from '../src/icons/user.svg';
 import update from '../src/icons/update.svg';
 
+//Esto es una prueba
 
 class App extends React.Component {
 
