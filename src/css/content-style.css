@@ -111,26 +111,34 @@
 .container-fluid
 
 {
-    position:fixed;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #212121;
-    width: 100%;
-    height: 100%;
-    margin-bottom: -100px;
-  
 
+    background-color: #212121;
+  
+}
+.footerinfo
+{
+    background-color: #707070;
+    color: #FDFDFD;
+    font-family: Roboto;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 4px;
+    margin-top: -16px;
 }
 
-.f
+.logofooter
+{
+    margin-top: 16px;
+    height: 103px;
+    width: 333px;
+}
+
+/* .f
 
 {
     background-color: #707070; 
     height: 50px;
-}
+} */
 
 .tt
 {
@@ -206,7 +214,7 @@
 	right:20px;
 }
 
-.nav2
+.navblanco
 {
     width: 100%;
     
@@ -217,48 +225,73 @@
 
     width: 132.75px;
     height: 40px;
-    margin-left:127.9px;
+    /* margin-left:127.9px; */
     
 
 }
 
 .Buttons
-{
-    position: absolute;
+{    
+    display: inline-flex;
     font-family: Raleway;
     font-size: 12px;
-    left: 956px;
-    top: -9px;
+    
 }
 
 
 .iniciarses
 {
     background-color: #DD9835;
-    border-radius: 57px;
-    border: #DD9835;
-    display: inline-block;
+    background-repeat: no-repeat;
     cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
+    overflow: hidden;
+    outline: none;
+    height: 38px;
+    line-height: 32px;
+    border: 2px solid #DD9835;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    width: 120px;
+    padding: 0px!important;
     font-size: 13px;
-    padding: 11px 31px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #2f6627;
+    color: #FFFDFA;
+    border-radius: 19px;
+    width: 168px;
+ 
 }
 
+.iniciarses:hover  {
+    color:  #fff;
+    background:  #212121;
+    border-color: #212121
+}
 
+.einteresado:hover  {
+    color:  #fff;
+    background:  #DD9835;
+     outline: 0;
+}
 
 
 .pigsinicio
 {
 
-    width:1920px;
+    width:100%;
     clip-path: polygon(0 0, 0% 142%, 100% 0);
-    height: 913.54px;
+    height: 60vh;
     display: inline-block;
     
 
+}
+
+@media only screen and (min-width: 414px)
+
+{
+    .pigsinicio
+    {
+        clip-path: none;
+    }
 }
 
 .desk
@@ -277,11 +310,7 @@
 
 font-size: 20px;
 font-family: Raleway;
-margin-left: 267px;
-margin-top: -525px;
-display: inline-block;
-position: absolute;
-color: #FFFFFF;
+
 
 }
 
@@ -290,10 +319,6 @@ color: #FFFFFF;
 
     font-size: 50px;
     font-family: Raleway;
-    margin-left: 267px;
-    margin-top: -496px;
-    display: inline-block;
-    position: absolute;
     color: #FFFFFF;
     font-weight: bold;
 
@@ -305,10 +330,6 @@ color: #FFFFFF;
 
     font-size: 50px;
     font-family: Raleway;
-    margin-left: 576px;
-    margin-top: -420px;
-    display: inline-block;
-    position: absolute;
     color: #DD9835;
     font-weight: bold;
 
@@ -378,20 +399,28 @@ color: #FFFFFF;
 .einteresado
 
 {
- 
-    background-color: transparent;
-    border-radius: 52px;
-    border: 1px solid #DD9835;
-    display: inline-block;
+
+
+    background-color: Transparent;
+    background-repeat: no-repeat;
     cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    height: 38px;
+    line-height: 32px;
+    border: 2px solid #DD9835 !important;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    width: 120px;
+    padding: 0px!important;
+    font-size: 13px;
     color: #DD9835;
-    font-family: Arial;
-    font-size: 12px;
-    padding: 23px 39px;
-    text-decoration: none;
-    width: 170px;
-    height: 31px;
-    margin-top: 10px;
+    border-radius: 19px;
+    width: 168px;
+   
+   
+
 }
 
 
@@ -400,7 +429,7 @@ color: #FFFFFF;
 {
 
     background-color: #212121;
-    width: 1920px;
+    width: 100%;
     height: 500px;
     margin-bottom: 39px;
     margin-top: 297px;

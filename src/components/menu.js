@@ -3,6 +3,7 @@ import React from 'react'
 import { Container, Col, Row } from "react-bootstrap";
 import mailinfo from '../icons/mail.svg'
 import phoneinfo from '../icons/phone.svg'
+import { Navbar, Nav } from 'react-bootstrap';
 
 
 class NavbarTest extends React.Component {
@@ -31,8 +32,13 @@ class NavbarTest extends React.Component {
 
                 </Container>
 
-
+ 
             </header>
+
+            
+
+
+
 
         );
     }
