@@ -251,6 +251,7 @@
 }
 
 
+
 .iniciarses
 {
     background-color: #DD9835;
@@ -291,29 +292,39 @@
 
     width:100%;
     /* clip-path: polygon(0 0, 0% 142%, 100% 0); */
-    height: 90vh;
+    height: 60vh;
     display: inline-block;
     
 
 }
 
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 0px)
 
 {
     .pigsinicio
     {
         clip-path: none;
     }
+
+    .Buttons
+    {
+        display: inline-block;
+    }
 }
 
 
-@media only screen
+@media only screen and (min-width: 991px) 
 
-and (min-width : 1224px) {
+{
 
     .pigsinicio
     {
         clip-path:  polygon(0 0, 0% 142%, 100% 0);
+    }
+
+    .Buttons
+    {
+        display: inline-flex;
     }
 
 }
@@ -321,7 +332,7 @@ and (min-width : 1224px) {
 
 @media only screen
 
-and (min-width : 320px)
+and (min-width : 0px)
 {
     .desktopp
     {
@@ -337,16 +348,17 @@ and (min-width : 320px)
 
 @media only screen
 
-and (min-width : 1224px) {
+and (min-width : 991px) {
 
     .desktopp
     {
         position: absolute;
         margin-left: -615px;
         width: -1px;
-        height: 270px;
-        margin-top: 124px;
+        height: 414px;
+        margin-top: 98px;
         opacity: 5;
+    
     }
 
 }
@@ -368,7 +380,7 @@ and (min-width : 1224px) {
 
 }
 
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 360px)
 
 {
     .t1
@@ -413,7 +425,7 @@ and (min-width : 1224px) {
 
     font-size: 14px;
     font-family: Raleway;
-    color: #DD9835;
+    color: #212121;
     text-align: center;
     margin-top: 71px;
     
@@ -520,23 +532,29 @@ and (min-width : 1224px) {
 
 .text10
 {
-    font-size: 51px;
+    font-size: 42px;
     font-family: Roboto;
     color: #DD9835;
     font-weight: bold;
     width: 82px;
     height: 45px;
+    padding-right: 158px;
+    display: inline-table;
+    text-align: -webkit-center;
+    margin-left: 80px;
     
 
 }
 
 .text11
 {
-    font-size: 50px;
+    font-size: 10px;
     font-family: Roboto;
-  
-    color: #DD9835;
-    font-weight: bold;
+    color: #767676;
+    display: inline-table;
+    padding-right: 112px;
+    text-align: center;
+    margin-left: 70px;
   
 
 }
@@ -585,13 +603,13 @@ and (min-width : 1224px) {
 .text16
 {
 
-    font-size: 20px;
+    font-size: 17px;
     font-family: Raleway;
-    margin-left: 462px;
-    margin-top: -313px;
-    display: inline-block;
-    position: absolute;
     color: #FFFFFF;
+    text-align: center;
+    /* padding-bottom: 0px; */
+    /* padding: 0px; */
+    margin-top: 84px;
 
 }
 
@@ -600,11 +618,8 @@ and (min-width : 1224px) {
 
     font-size: 50px;
     font-family: Raleway;
-    margin-left: 647px;
-    margin-top: -269px;
-    display: inline-block;
-    position: absolute;
     color: #FFFFFF;
+    text-align: center;
 
 }
 
@@ -613,11 +628,9 @@ and (min-width : 1224px) {
 
     font-size: 50px;
     font-family: Raleway;
-    margin-left: 996px;
-    margin-top: -269px;
-    display: inline-block;
-    position: absolute;
     color: #DD9835;
+    text-align: center;
+
 
 }
 
@@ -628,12 +641,9 @@ and (min-width : 1224px) {
     background-color: #FFFFFF;
     height: 238px;
     width: 400px;
-    margin-top: -142px;
     display: inline-block;
     position: absolute;
-    margin-left: 230px;
-        
-
+    
 }
 
 .container4
@@ -642,12 +652,8 @@ and (min-width : 1224px) {
     background-color: #FFFFFF;
     height: 238px;
     width: 400px;
-    margin-top: -142px;
-    display: inline-block;
     position: absolute;
-    margin-left: 1232px;
-        
-
+       
 }
 
 .container5
@@ -656,12 +662,8 @@ and (min-width : 1224px) {
     background-color: #FFFFFF;
     height: 238px;
     width: 400px;
-    margin-top: -142px;
-    display: inline-block;
     position: absolute;
-    margin-left: 721px;
-        
-
+      
 }
 
 
@@ -908,6 +910,30 @@ height: 555px;
 
 }
 
+
+.MediumRow
+
+{
+
+    background-color: #f8f9fa;
+    text-align: -webkit-left;
+    margin-top: 40px;
+    position: absolute;
+    -webkit-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
+    box-shadow: -15px 9px 14px -5px rgba(0,0,0,0.3);
+    border-radius: 8px;
+    height: 145px;
+
+}
+
+.BlackRow
+{
+    background-color: #212121;
+    height: 321px;
+    margin-top: 108px;
+
+}
 
 
 

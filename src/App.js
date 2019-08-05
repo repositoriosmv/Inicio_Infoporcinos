@@ -73,6 +73,60 @@ class App extends React.Component {
 
           </Row>
 
+          
+ <Row>
+<Col xs="12" md="2">
+ </Col>
+
+  <Col xs="12" md="8">
+
+    <div className="MediumRow">
+   <Row>   
+<Col xs="12" md="4">
+<div className="text10">185</div>
+<div className="text11">GRANJAS ACTIVAS EN EL SISTEMA</div>
+</Col>
+
+<Col xs="12" md="4">
+<div className="text10">3,486,969</div>
+<div className="text11">CANALES CALIENTES<br />PORCINOS EVALUADOS</div>
+            
+</Col >
+
+<Col  xs="12" md="4">
+<div className="text10">12</div>
+<div className="text11">AÑOS EN EL MERCADO</div>
+</Col>
+</Row>
+
+    </div>
+
+            
+  </Col>
+
+  <Col xs="12" md="2">
+  </Col>
+
+</Row>
+
+
+<Row className="BlackRow">
+
+<Col xs="12" md="2">
+ </Col>
+
+  <Col xs="12" md="8">
+
+          <div className="text16"> Aprovecha al máximo cada recurso y optimiza los procesos con nuestras ventajas competitivas </div>
+          <div className="text17"> ¿Qué tenemos </div>
+          <div className="text18"> para ti? </div>         
+  </Col>
+
+  <Col xs="12" md="2">
+  </Col>
+
+</Row>
+
      
           <div className="full-container text-center">
             <div class="textos">
@@ -149,7 +203,6 @@ class App extends React.Component {
                 </div>
 
               </div>
-
 
             </div>
 
