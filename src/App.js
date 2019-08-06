@@ -40,6 +40,22 @@ class App extends React.Component {
 
           </Col>
 
+          <Col md={12} lg={12} sm={12}>
+
+        <p className="titulop">APROVECHA AL MÁXIMO TODOS TUS RECURSOS</p>
+        <p className="titulop2">El mejor sistema de <br></br>
+        información</p>
+
+        <div className="containert">
+
+        <p className="titulop3">para tu negocio</p>
+
+        </div>
+
+
+          </Col>
+
+
           </Row>
 
           <Row>
@@ -73,14 +89,16 @@ class App extends React.Component {
 
           </Row>
 
-          
- <Row>
-<Col xs="12" md="2">
- </Col>
+          <div class="full-container text-center">
 
-  <Col xs="12" md="8">
+	
+		<div class="row margen2">
 
-    <div className="MediumRow">
+			<div class="col-lg-9 col-10 sobre">
+				
+				<div class="muestra2">
+
+        <div className="MediumRow">
    <Row>   
 <Col xs="12" md="4">
 <div className="text10">185</div>
@@ -100,17 +118,19 @@ class App extends React.Component {
 </Row>
 
     </div>
+					
+				</div>
 
-            
-  </Col>
+			</div>
 
-  <Col xs="12" md="2">
-  </Col>
+		</div>
 
-</Row>
+		<div class="row fondo">
 
-
-<Row className="BlackRow">
+			<div class="col-12">
+				
+				<div class="muestra3">
+        <Row className="BlackRow">
 
 <Col xs="12" md="2">
  </Col>
@@ -126,7 +146,85 @@ class App extends React.Component {
   </Col>
 
 </Row>
+					
+				</div>
 
+			</div>
+
+
+		</div>
+
+		<div class="row margen sobre">
+
+			<div class="col-lg-3 col-10 sobre">
+				
+				<div class="muestra2">
+
+        <div className="container4">
+
+<div className="circulo">
+  <div className="iconos">
+    <img src={process} />
+  </div>
+</div>
+
+<div className="text21">Sistema de Trazabilidad</div>
+<div className="text24">Permite a el control y seguimiento del producto, <br /> en cada uno de los procesos.</div>
+
+</div>
+
+					
+				</div>
+
+			</div>
+
+			<div class="col-lg-3 col-10">
+				
+				<div class="muestra2">
+
+				<div className="container4">
+
+            <div className="circulo">
+              <div className="iconos">
+                <img src={key} />
+              </div>
+            </div>
+
+            <div className="text21">Niveles de Acceso </div>
+            <div className="text24"> Divide cada usuario según su rol y permite <br /> acceso a diferentes secciones.</div>
+
+          </div>
+					
+				</div>
+
+			</div>
+
+			<div class="col-lg-3 col-10">
+
+      <div class="muestra2">
+
+<div className="container4">
+
+    <div className="circulo">
+      <div className="iconos">
+        <img src={pass} />
+      </div>
+    </div>
+
+    <div className="text21">Claves Unicas </div>
+    <div className="text24">La seguridad de la información de cada <br /> usuario es importante.</div>
+
+  </div>
+  
+</div>
+				
+			
+			</div>
+
+		</div>
+
+	</div>
+ 
      
           <div className="full-container text-center">
             <div class="textos">
