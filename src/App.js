@@ -317,35 +317,93 @@ class App extends React.Component {
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
-              <img
-                className="d-block w-100"
-                src={central}
-                alt="First slide"
-              />
-            </MDBView>
-          </MDBCarouselItem>
-          <MDBCarouselItem itemId="2">
-            <MDBView>
+
+            <Row>
+
+<Col xs="12" md="2">
+ </Col>
+
+  <Col xs="12" md="8">
+
+  <div className="t4">Empresas que confían en Mercadeo Virtual S.A.</div>
+    <div className="t5">¡Trabajando con Nosotros!</div>
+    </Col>
+
+    <Col xs="12" md="2">
+ </Col>
+
+    </Row>
               <img
                 className="d-block w-100"
                 src={pig2}
-                alt="Second slide"
-              />
+                alt="First slide"
+              />         
+
             </MDBView>
+
+           
+          </MDBCarouselItem>
+          <MDBCarouselItem itemId="2">
+            <MDBView>
+
+            <Row>
+
+<Col xs="12" md="2">
+ </Col>
+
+  <Col xs="12" md="8">
+
+  <div className="t4">Empresas que confían en Mercadeo Virtual S.A.</div>
+    <div className="t5">¡Trabajando con Nosotros!</div>
+    </Col>
+
+    <Col xs="12" md="2">
+ </Col>
+
+    </Row>
+              <img
+                className="d-block w-100"
+                src={central}
+                alt="Second slide"
+
+              />
+                
+            </MDBView>
+
+            
           </MDBCarouselItem>
           <MDBCarouselItem itemId="3">
             <MDBView>
+
+            <Row>
+
+<Col xs="12" md="2">
+ </Col>
+
+  <Col xs="12" md="8">
+
+  <div className="t4">Empresas que confían en Mercadeo Virtual S.A.</div>
+    <div className="t5">¡Trabajando con Nosotros!</div>
+
+    </Col>
+
+    <Col xs="12" md="2">
+ </Col>
+
+    </Row>
+
               <img
                 className="d-block w-100"
                 src={pig3}
                 alt="Third slide"
               />
+                
             </MDBView>
           </MDBCarouselItem>
         </MDBCarouselInner>
       </MDBCarousel>
     </MDBContainer>
-  );
+  
 
 
         <Footer />

@@ -6,6 +6,7 @@
     padding-top: 21.5rem!important;
 }
 
+
 .titulos
 
 {
@@ -24,7 +25,7 @@
     margin-top: -325px;
     margin-left: 13%;
     color: white;
-    font-size: 16px;
+    font-size: 1.3vmax;
     font-family: Raleway;
 }
 
@@ -36,7 +37,7 @@
     margin-top: -307px;
     margin-left: 13%;
     color: white;
-    font-size: 36px;
+    font-size: 2.6vmax;
     font-weight: bold;
     font-family: Raleway;    
 }
@@ -48,7 +49,7 @@
     margin-top: -323px;
     margin-left: 4%;
     color: #DD9835;
-    font-size: 36px;
+    font-size: 2.5vmax;
     font-family: Raleway;
     font-weight: bolder;
     
@@ -58,13 +59,12 @@
 .containert
 {
     background-color: white;
-    width: 20.5%;
+    width: 21vmax;
     margin-left: 29%;
     margin-top: 70px;
-    height: 50px;
-    padding-bottom: -16px;
     padding-top: 0px;
     position: relative;
+    overflow-x: visible;
 
 }
 
@@ -115,7 +115,14 @@
   }
 
 
+  @media (min-width: 1200px)
+  {
+    .container {
+        max-width: 100%;
+    }
 
+  }
+  
 
 
 .mail{
@@ -191,7 +198,7 @@
 {
     margin-top: 16px;
     height: 103px;
-    width: 333px;
+    width: 30vmax
 }
 
 /* .f
@@ -665,7 +672,7 @@ and (min-width : 991px) {
 .text17
 {
 
-    font-size: 50px;
+    font-size: 3.3vmax;
     font-family: Raleway;
     color: #FFFFFF;
     text-align: center;
@@ -675,11 +682,11 @@ and (min-width : 991px) {
 .text18
 {
 
-    font-size: 50px;
+    font-size: 3.3vmax;
     font-family: Raleway;
     color: #DD9835;
     text-align: center;
-
+    margin-top: -15px;
 
 }
 
@@ -850,8 +857,8 @@ and (min-width : 991px) {
 
 {
 
-    width: 434px;
-    height: 286px;
+    width: 43vmax;
+    height: 32vmax;
 
 }
 
