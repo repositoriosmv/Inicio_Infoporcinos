@@ -17,13 +17,13 @@ class NavbarTest extends React.Component {
 
             <header className="header-id">
                 <Container>
-                    <Row>
-                        <Col sm="15">
+                    <Row className="margin-navbar">
+                        <Col className="margin-item" sm="auto">
                             <img className="iconsheader" src={mailinfo} />
                             <span className="text-header">info@infoporcinos.com</span>
                             
                             </Col>
-                        <Col sm="15">
+                        <Col sm="auto">
                             <img  className="iconsheader" src={phoneinfo} />
                             <span className="text-header">+57 034 0000 000</span>
                             
