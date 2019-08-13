@@ -31,7 +31,6 @@ class SobreNosotros extends React.Component {
 
 
                 <Row>
-
                     <Col xs="12" md="2">
 
                     </Col>

@@ -10,6 +10,13 @@
   text-align: center;
 }
 
+.textospigs
+{
+
+margin-top: -249px;
+
+}
+
 .titulop {
   position: absolute;
   margin-top: -325px;
@@ -30,7 +37,7 @@
 }
 
 .titulop3 {
-  margin-top: -323px;
+  margin-top: -293px;
   margin-left: 4%;
   color: #dd9835;
   font-size: 2.5vmax;
@@ -39,13 +46,13 @@
 }
 
 .containert {
-  background-color: white;
-  width: 21vmax;
-  margin-left: 29%;
-  margin-top: 70px;
-  padding-top: 0px;
-  position: relative;
-  overflow-x: visible;
+    background-color: white;
+    width: 21vmax;
+    margin-left: 29%;
+    margin-top: 6vh;
+    padding-top: 0px;
+    position: relative;
+    overflow-x: visible;
 }
 
 .nav {
@@ -303,7 +310,7 @@
 .pigsinicio {
   width: 100%;
   /* clip-path: polygon(0 0, 0% 142%, 100% 0); */
-  height: 60vh;
+  height: 94vh;
   display: inline-block;
 }
 
@@ -319,7 +326,7 @@
 
 @media only screen and (min-width: 991px) {
   .pigsinicio {
-    clip-path: polygon(0 0, 0% 142%, 100% 0);
+    clip-path: polygon(0 0, 0% 100%, 174% 0);
   }
 
   .Buttons {
@@ -341,10 +348,10 @@
 @media only screen and (min-width: 991px) {
   .desktopp {
     position: absolute;
-    margin-left: -615px;
+    margin-left: -695px;
     width: -1px;
-    height: 414px;
-    margin-top: 98px;
+    height: 59vh;
+    margin-top: 277px;
     opacity: 5;
   }
 }
@@ -424,7 +431,6 @@
   font-size: 13px;
   padding: 11px 31px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
 }
 
 .einteresado {
@@ -528,10 +534,12 @@
 }
 
 .text17 {
-  font-size: 3.3vmax;
-  font-family: Raleway;
-  color: #ffffff;
-  text-align: center;
+    margin-left: -48px;
+    font-size: 3.3vmax;
+    font-family: Raleway;
+    color: #ffffff;
+    text-align: center;
+    display: -webkit-inline-box;
 }
 
 .text18 {

@@ -47,7 +47,7 @@ class Home extends React.Component {
             <img className="desktopp" src={desktop} />
           </Col>
 
-          <Col md={12} lg={12} sm={6}>
+          <Col  className ="textospigs" md={12} lg={12} sm={6}>
               <p className="titulop">APROVECHA AL MÁXIMO TODOS TUS RECURSOS</p>
               <p className="titulop2">
                 El mejor sistema de <br />
@@ -130,8 +130,8 @@ class Home extends React.Component {
                       Aprovecha al máximo cada recurso y optimiza los procesos
                       con nuestras ventajas competitivas{" "}
                     </div>
-                    <div className="text17"> ¿Qué tenemos </div>
-                    <div className="text18"> para ti? </div>
+                    <div className="text17"> ¿Qué tenemos <p style={{color: '#DD9835'}}>&nbsp;para ti?</p> </div>
+                    {/* <div className="text18" > para ti? </div> */}
                   </Col>
 
                   <Col xs="12" md="2" />

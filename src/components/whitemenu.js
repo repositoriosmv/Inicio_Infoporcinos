@@ -49,43 +49,6 @@ class WhiteMenu extends React.Component {
         </Navbar.Collapse>
       </Navbar>
 
-      // <nav>
-      //     <Navbar bg="light" expand="lg">
-      //         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      //         <Navbar.Collapse id="basic-navbar-nav">
-      //             <Container>
-      //                 <Row>
-      //                     <Nav className="mr-auto">
-
-      //                         <Col md="2" xs="12">
-      //   <div className="logop">
-      //       <img src={logo} />
-      //   </div>
-
-      //                         </Col>
-
-      //                         <Col md="10" xs="12" className="Buttons">
-
-      //   <Nav.Link href="/">Inicio</Nav.Link>
-      //   <Nav.Link href="/SobreNosotros">Sobre Nosotros</Nav.Link>
-      //   <Nav.Link href="#home">Servicios</Nav.Link>
-      //   <Nav.Link href="#home">Preguntas Frecuentes</Nav.Link>
-      //   <Nav.Link href="#home">Contacto</Nav.Link>
-      //   <Button className="einteresado">Estoy Interesado</Button>
-      //   <Nav.Link href="#home"></Nav.Link>
-      //   <Button className="iniciarses">Iniciar Sesion</Button>
-
-      //                         </Col>
-
-      //                     </Nav>
-      //                 </Row>
-
-      //             </Container>
-
-      //         </Navbar.Collapse>
-      //     </Navbar>
-
-      // </nav>
     );
   }
 }
