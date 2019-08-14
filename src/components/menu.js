@@ -15,6 +15,8 @@ class NavbarTest extends React.Component {
     render() {
         return (
 
+            
+
             <header className="header-id">
                 <Container>
                     <Row className="margin-navbar">
@@ -34,10 +36,6 @@ class NavbarTest extends React.Component {
 
  
             </header>
-
-            
-
-
 
 
         );

@@ -10,11 +10,8 @@
   text-align: center;
 }
 
-.textospigs
-{
-
-margin-top: -249px;
-
+.textospigs {
+  margin-top: -249px;
 }
 
 .titulop {
@@ -46,13 +43,13 @@ margin-top: -249px;
 }
 
 .containert {
-    background-color: white;
-    width: 21vmax;
-    margin-left: 29%;
-    margin-top: 6vh;
-    padding-top: 0px;
-    position: relative;
-    overflow-x: visible;
+  background-color: white;
+  width: 21vmax;
+  margin-left: 29%;
+  margin-top: 6vh;
+  padding-top: 0px;
+  position: relative;
+  overflow-x: visible;
 }
 
 .nav {
@@ -67,6 +64,13 @@ margin-top: -249px;
   height: 3%;
   width: 100%;
   padding: 3px;
+}
+.textosinfo
+
+{
+
+    text-align: center;
+
 }
 
 .text-header {
@@ -147,6 +151,7 @@ margin-top: -249px;
 
 .container-fluid {
   background-color: #212121;
+  padding-bottom: 19px;
 }
 .footerinfo {
   background-color: #707070;
@@ -233,41 +238,40 @@ margin-top: -249px;
 }
 
 .item-nav {
-    text-decoration: none;
-    color: #191919;
-    font-size: 14px;
-    text-align: right;
+  text-decoration: none;
+  color: #191919;
+  font-size: 14px;
+  text-align: right;
 }
 
 .item-nav:hover {
-    font-weight: bold;
-    color: #DD9835;
+  font-weight: bold;
+  color: #dd9835;
 }
 
 .form-inline {
-    justify-content:flex-end;
+  justify-content: flex-end;
 }
-
 
 .container-btn {
-    display: flex;
+  display: flex;
 }
 .margin-navbar {
-    width: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.margin-navbar .col{
-    padding-left: 0px;
+.margin-navbar .col {
+  padding-left: 0px;
 }
 
 .margin-item {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .btn-margin {
-    padding-right: 0px;
+  padding-right: 0px;
 }
 
 .Buttons {
@@ -286,7 +290,7 @@ margin-top: -249px;
   line-height: 32px;
   border: 2px solid #dd9835;
   display: inline-block;
-  float: none;      
+  float: none;
   text-align: center;
   padding: 0px !important;
   font-size: 13px;
@@ -400,8 +404,7 @@ margin-top: -249px;
   font-size: 14px;
   font-family: Raleway;
   color: #212121;
-  text-align: center;
-  margin-top: 71px;
+
 }
 
 .t5 {
@@ -409,15 +412,14 @@ margin-top: -249px;
   font-family: Raleway;
   color: #dd9835;
   font-weight: bold;
-  text-align: center;
+  padding-bottom: 7px;
+ 
 }
 
 .t6 {
   font-size: 16px;
   font-family: Roboto;
-
   color: #767676;
-  text-align: center;
 }
 
 .ButtonAcerca {
@@ -482,7 +484,8 @@ margin-top: -249px;
   padding-right: 158px;
   display: inline-table;
   text-align: -webkit-center;
-  margin-left: 80px;
+  margin-left: 90px;
+  padding-left: 5px;
 }
 
 .text11 {
@@ -492,7 +495,8 @@ margin-top: -249px;
   display: inline-table;
   padding-right: 112px;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 89px;
+  padding-right: 127px;
 }
 
 .text12 {
@@ -534,12 +538,12 @@ margin-top: -249px;
 }
 
 .text17 {
-    margin-left: -48px;
-    font-size: 3.3vmax;
-    font-family: Raleway;
-    color: #ffffff;
-    text-align: center;
-    display: -webkit-inline-box;
+  margin-left: -48px;
+  font-size: 3.3vmax;
+  font-family: Raleway;
+  color: #ffffff;
+  text-align: center;
+  display: -webkit-inline-box;
 }
 
 .text18 {
@@ -693,11 +697,12 @@ margin-top: -249px;
 }
 
 .MediumRow {
+  padding: 38px;
 }
 
 .BlackRow {
   height: 322px;
-  margin-top: -35px;
+  margin-top: 10px;
 }
 
 .muestra3 {
@@ -759,4 +764,29 @@ margin-top: -249px;
   align-items: center;
   justify-content: center;
   margin-bottom: -120px;
+}
+
+.contenido2 {
+  padding: 25px;
+  background-color: red;
+  padding-bottom: 67px;
+  padding-top: 1px;
+  border-radius: -137;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contenido3 {
+    justify-content: end;
+    display: inline-block;
+    padding-top: 60px;
+}
+
+.txtslide
+
+{
+    text-align: center;
+
 }

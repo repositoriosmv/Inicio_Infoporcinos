@@ -40,30 +40,28 @@ class Home extends React.Component {
       <div>
         <NavbarTest />
         <WhiteMenu />
-
         <Row>
           <Col md={12} lg={12} sm={12}>
             <img className="pigsinicio" src={pigs} />
             <img className="desktopp" src={desktop} />
           </Col>
 
-          <Col  className ="textospigs" md={12} lg={12} sm={6}>
-              <p className="titulop">APROVECHA AL MÁXIMO TODOS TUS RECURSOS</p>
-              <p className="titulop2">
-                El mejor sistema de <br />
-                información
-              </p>
+          <Col className="textospigs" md={12} lg={12} sm={6}>
+            <p className="titulop">APROVECHA AL MÁXIMO TODOS TUS RECURSOS</p>
+            <p className="titulop2">
+              El mejor sistema de <br />
+              información
+            </p>
 
-              <div className="containert">
-                <p className="titulop3">para tu negocio</p>
-              </div>
+            <div className="containert">
+              <p className="titulop3">para tu negocio</p>
+            </div>
           </Col>
         </Row>
-
         <Row>
           <Col xs="12" md="2" />
 
-          <Col xs="12" md="8">
+          <Col xs="12" md="8" className="textosinfo">
             <div className="t4">Trazabilidad en Tiempo Real</div>
             <div className="t5">Acerca de Infoporcinos</div>
             <div className="t6">
@@ -85,7 +83,6 @@ class Home extends React.Component {
 
           <Col xs="12" md="2" />
         </Row>
-
         <div class="full-container text-center">
           <div class="row margen2">
             <div class="col-lg-9 col-10 sobre">
@@ -130,7 +127,11 @@ class Home extends React.Component {
                       Aprovecha al máximo cada recurso y optimiza los procesos
                       con nuestras ventajas competitivas{" "}
                     </div>
-                    <div className="text17"> ¿Qué tenemos <p style={{color: '#DD9835'}}>&nbsp;para ti?</p> </div>
+                    <div className="text17">
+                      {" "}
+                      ¿Qué tenemos{" "}
+                      <p style={{ color: "#DD9835" }}>&nbsp;para ti?</p>{" "}
+                    </div>
                     {/* <div className="text18" > para ti? </div> */}
                   </Col>
 
@@ -197,7 +198,6 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-
         <div className="full-container text-center">
           <div class="textos">
             <h5>La Mejor Optimización </h5>
@@ -285,12 +285,13 @@ class Home extends React.Component {
                 <MDBView>
                   <Row>
                     <Col xs="12" md="2" />
-
                     <Col xs="12" md="8">
-                      <div className="t4">
-                        Empresas que confían en Mercadeo Virtual S.A.
+                      <div className="txtslide">
+                        <div className="t4">
+                          Empresas que confían en Mercadeo Virtual S.A.
+                        </div>
+                        <div className="t5">¡Trabajando con Nosotros!</div>
                       </div>
-                      <div className="t5">¡Trabajando con Nosotros!</div>
                     </Col>
 
                     <Col xs="12" md="2" />
@@ -302,12 +303,13 @@ class Home extends React.Component {
                 <MDBView>
                   <Row>
                     <Col xs="12" md="2" />
-
                     <Col xs="12" md="8">
-                      <div className="t4">
-                        Empresas que confían en Mercadeo Virtual S.A.
+                      <div className="txtslide">
+                        <div className="t4">
+                          Empresas que confían en Mercadeo Virtual S.A.
+                        </div>
+                        <div className="t5">¡Trabajando con Nosotros!</div>
                       </div>
-                      <div className="t5">¡Trabajando con Nosotros!</div>
                     </Col>
 
                     <Col xs="12" md="2" />
@@ -322,13 +324,15 @@ class Home extends React.Component {
               <MDBCarouselItem itemId="3">
                 <MDBView>
                   <Row>
+                    
                     <Col xs="12" md="2" />
-
                     <Col xs="12" md="8">
-                      <div className="t4">
-                        Empresas que confían en Mercadeo Virtual S.A.
+                      <div className="txtslide">
+                        <div className="t4">
+                          Empresas que confían en Mercadeo Virtual S.A.
+                        </div>
+                        <div className="t5">¡Trabajando con Nosotros!</div>
                       </div>
-                      <div className="t5">¡Trabajando con Nosotros!</div>
                     </Col>
 
                     <Col xs="12" md="2" />
@@ -340,7 +344,6 @@ class Home extends React.Component {
             </MDBCarouselInner>
           </MDBCarousel>
         </MDBContainer>
-
         <Footer />
       </div>
     );

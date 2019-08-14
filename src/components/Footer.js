@@ -55,12 +55,13 @@ class Footer extends React.Component {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-        <div className="footer-copyright text-center py-3">
+        <div className="footer-copyright text-center">
           <MDBContainer fluid className="footerinfo">
           <a> Copyright © 2019 Mercadeo Virtual. Todos los derechos reservados </a>
           </MDBContainer>
         </div>
       </MDBFooter>
+
 
 
     );
