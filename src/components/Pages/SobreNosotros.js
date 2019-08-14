@@ -27,8 +27,21 @@ class SobreNosotros extends React.Component {
         <NavbarTest />
         <WhiteMenu />
 
-        <div class="container-fluid">
-          {/* <img className="pigsinicio" src={pigs} /> */}
+        <div class=" headercontainer-fluid">
+          <Row>
+            <Col>
+              <div className="titulonosotros">
+                <p className="titulonos">
+                  Sobre
+                  <p style={{ color: "#DD9835", backgroundColor: "white" }}>
+                    nosotros
+                  </p>
+                </p>
+              </div>
+            </Col>
+            <Col />
+            <Col />
+          </Row>
         </div>
 
         <Row>
@@ -70,11 +83,42 @@ class SobreNosotros extends React.Component {
                 productos para lograr <br />
                 una diferenciación competitiva en los negocios y mercados.
               </div>
+
+              <div class="buttonvermas">
+                <button class="Buttonvermas" type="button">
+                  Ver más
+                </button>
+              </div>
             </div>
           </Col>
 
           <Col xs="12" md="4">
-            <div />
+            <div className="contenido4">
+              <div className="t6">
+                Entendemos la innovación como un factor estratégico de
+                competencia y <br />
+                diferenciación de las empresas en cualquier mercado global, que{" "}
+                <br />
+                sumado a la sincronización del negocio, a las condiciones del
+                mercado y <br />
+                a los procesos internos de producción y distribución, hacen que
+                la <br />
+                operación comercial e industrial sea eficiente, eficaz y con una
+                reducción <br />
+                en los costos de transacción que se traduce en nuevas
+                herramientas <br />
+                competitivas. Somos proveedores de Soluciones de Sistemas de
+                Información (web / <br />
+                móviles) que integran su negocio con sus clientes y proveedores
+                con un <br />
+                solo clic. Aprendemos, Investigamos y Desarrollamos Soluciones
+                de <br />
+                Información que le permitan a las empresas adoptar, implementar
+                y usar <br />
+                diferentes Sistemas de Trazabilidad de Procesos, Productos o
+                Servicios.
+              </div>
+            </div>
           </Col>
 
           <Col xs="12" md="2" />

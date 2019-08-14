@@ -86,6 +86,12 @@
   width: 24px;
 }
 
+.headercontainer-fluid
+{
+   height: 218px;
+  background-color: #212121;
+}
+
 .footer-id {
   background: #212121;
   position: fixed;
@@ -381,6 +387,25 @@
   }
 }
 
+.titulonos
+
+{
+
+    display: inline-flex;
+    font-size: 46px;
+    color: white;
+    font-weight: bold;
+}
+
+.titulonosotros
+
+{
+
+    padding-top: 69px;
+    text-align: right;
+
+}
+
 .t2 {
   font-size: 50px;
   font-family: Raleway;
@@ -417,9 +442,9 @@
 }
 
 .t6 {
-  font-size: 16px;
-  font-family: Roboto;
-  color: #767676;
+    font-size: 13px;
+    font-family: Roboto;
+    color: #767676;
 }
 
 .ButtonAcerca {
@@ -433,6 +458,26 @@
   font-size: 13px;
   padding: 11px 31px;
   text-decoration: none;
+}
+
+.Buttonvermas {
+
+ background-color: #dd9835;
+  border-radius: 57px;
+  border: #dd9835;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 11px 31px;
+  text-decoration: none;
+
+}
+
+.buttonvermas {
+
+  padding-top: 14px;
 }
 
 .einteresado {
@@ -679,6 +724,7 @@
 
 .full-container text-center {
   padding: 14px;
+  padding-top: 15px;
 }
 
 .carousel_inicio {
@@ -767,22 +813,37 @@
 }
 
 .contenido2 {
-  padding: 25px;
-  background-color: red;
-  padding-bottom: 67px;
-  padding-top: 1px;
-  border-radius: -137;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-  text-align: center;
+
+    padding: 25px;
+    background-color: white;
+    padding-bottom: 67px;
+    padding-top: 42px;
+    border-radius: -137;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: -47px;
+    -webkit-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
+    box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
 }
 
 .contenido3 {
+
     justify-content: end;
     display: inline-block;
     padding-top: 60px;
+    padding-left: 32px;
 }
+
+.contenido4 {
+
+    justify-content: end;
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+
+
 
 .txtslide
 
