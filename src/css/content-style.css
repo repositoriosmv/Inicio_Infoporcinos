@@ -79,8 +79,8 @@
 }
 
 .iconsheader {
-    height: 24px;
-    width: 24px;
+    height: 24px !important;
+    width: 24px !important;
 }
 
 .footer-id {
@@ -256,9 +256,9 @@
 }
 
 .margin-navbar {
-    width: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
+    width: 95% !important;
+    padding-left: 80px !important;
+    padding-right: 80px !important;
 }
 
 .margin-navbar .col {
@@ -280,34 +280,34 @@
 }
 
 .iniciarses {
-    background-color: #dd9835;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    height: 38px;
-    line-height: 32px;
-    border: 2px solid #dd9835;
-    display: inline-block;
-    float: none;
-    text-align: center;
+    background-color: #dd9835 !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer !important;
+    overflow: hidden !important;
+    outline: none !important;
+    height: 38px !important;
+    line-height: 32px !important;
+    border: 2px solid #dd9835 !important;
+    display: inline-block !important;
+    float: none !important;
+    text-align: center !important;
     padding: 0px !important;
-    font-size: 13px;
-    color: #fffdfa;
-    border-radius: 19px;
-    width: 168px;
+    font-size: 13px !important;
+    color: #fffdfa !important;
+    border-radius: 19px !important;
+    width: 168px !important;
 }
 
 .iniciarses:hover {
-    color: #fff;
-    background: #212121;
-    border-color: #212121;
+    color: #fff !important;
+    background: #212121 !important;
+    border-color: #212121 !important;
 }
 
 .einteresado:hover {
-    color: #fff;
-    background: #dd9835;
-    outline: 0;
+    color: #fff !important;
+    background: #dd9835 !important;
+    outline: 0 !important;
 }
 
 .pigsinicio {
@@ -349,10 +349,10 @@
 @media only screen and (min-width: 991px) {
     .desktopp {
         position: absolute;
-        margin-left: -695px;
+        margin-left: -445px;
         width: -1px;
         height: 59vh;
-        margin-top: 277px;
+        margin-top: 177px;
         opacity: 5;
     }
 }
@@ -412,26 +412,17 @@
 }
 
 .t6 {
-    font-size: 13px;
+    font-size: 16px;
     font-family: Roboto;
     color: #767676;
 }
 
 .Button {
-    background-color: #dd9835;
-    border-radius: 57px;
-    border: #dd9835;
-    display: inline-block;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Arial;
-    font-size: 13px;
-    padding: 11px 31px;
-    text-decoration: none;
+    background-color: #dd9835 !important;
+    border: #dd9835 !important;
 }
 
 .ButtonAcerca {
-
     background-color: #dd9835;
     border-radius: 57px;
     border: #dd9835;
@@ -445,22 +436,22 @@
 }
 
 .einteresado {
-    background-color: Transparent;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    height: 38px;
-    line-height: 32px;
+    background-color: Transparent !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer !important;
+    overflow: hidden !important;
+    outline: none !important;
+    height: 38px !important;
+    line-height: 32px !important;
     border: 2px solid #dd9835 !important;
-    display: inline-block;
-    float: none;
+    display: inline-block !important;
+    float: none !important;
     text-align: center;
-    width: 120px;
+    width: 160px !important;
     padding: 0px !important;
-    font-size: 13px;
-    color: #dd9835;
-    border-radius: 19px;
+    font-size: 13px !important;
+    color: #dd9835 !important;
+    border-radius: 19px !important;
     width: 168px;
 }
 
@@ -582,7 +573,7 @@
     font-size: 14px;
     font-family: Raleway;
     color: #707070;
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 16px;
     text-align: center;
 }
@@ -724,7 +715,7 @@
 
 .muestra2 {
     margin-bottom: 40px;
-    width: 100%;
+    width: 90%;
     height: 264px;
     border-radius: 10px;
     background-color: #fff;
@@ -761,6 +752,7 @@
 }
 
 .margen {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -797,7 +789,6 @@
 }
 
 
-
 /* pagina-2 */
 
 .pagestwo {
@@ -811,13 +802,6 @@
     font-size: 2.6vmax;
     font-weight: bold;
     font-family: Raleway;
-}
-
-.divsnp-4
-{
--webkit-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
--moz-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
-box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
 }
 
 .titulop11 {
@@ -835,11 +819,10 @@ box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
     display: flex;
     align-items: center;
     background-size: cover;
-    background-position-y: center;
 }
 
 .t5p2 {
-    font-size: 20px;
+    font-size: 34px;
     font-family: Raleway;
     color: #dd9835;
     font-weight: bold;
@@ -860,7 +843,67 @@ box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
     display: -webkit-inline-box;
 }
 
-/* pagina-3 */
+.resaltado {
+    color: #dd9835;
+}
+
+.text16p3 {
+    font-size: 16px;
+    font-family: Raleway;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.text17p3 {
+    font-size: 3.3vmax;
+    font-family: Raleway;
+    color: #ffffff;
+    text-align: center;
+    display: -webkit-inline-box;
+}
+
+.perfiles {
+    width: 100%;
+    height: 300px;
+    background-color: #2b2b2b;
+}
+
+
+/* home */
+
+.cifras {
+    font-size: 42px;
+    font-family: Roboto;
+    color: #dd9835;
+    font-weight: bold;
+    width: 100%;
+}
+
+.cifras1 {
+    font-size: 10px;
+    font-family: Roboto;
+    color: #767676;
+}
+
+.muestraHome {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 264px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    -webkit-box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Pagina3 */
+
 
 .fondop3 {
     background-image: url('../images/ImageServicios.jpg');
@@ -868,32 +911,79 @@ box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
     display: flex;
     align-items: center;
     background-size: cover;
-    background-position-y: center;
 }
 
-.titulo5p2 
+
+
+/* Pagina4 */
+
+.accordion {
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+}
+.accordion .accordion-item:first-child .title {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.accordion .accordion-item:last-child .title {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.accordion .accordion-item .title {
+  background-color: #f6f6f6;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.accordion .accordion-item .title:after {
+  content: '\2795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.accordion .accordion-item .panel {
+  max-height: 0;
+  -webkit-transition: max-height 0.15s ease-out;
+  -o-transition: max-height 0.15s ease-out;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+}
+.accordion .accordion-item.active .title {
+  background-color: #eee;
+}
+.accordion .accordion-item.active .title:after {
+  content: '\2796';
+}
+.accordion .accordion-item.active .panel {
+  max-height: 500px;
+  -webkit-transition: max-height 0.25s ease-in;
+  -o-transition: max-height 0.25s ease-in;
+  transition: max-height 0.25s ease-in;
+}
+
+.SeccionCollapse
+
 {
 
-    font-size: 42px;
-    color: #DD9835;
-}
-
-.circulo2 {
-    width: 7px;
-    height: 7px;
-    border-radius: 54%;
-    background: #dd9835;
+    padding-bottom: 85px;
 
 }
 
 
+.SeccionCollapse2
+
+{
 
 
-.listaitems::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: red; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */ 
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
+    
 }
+
+
