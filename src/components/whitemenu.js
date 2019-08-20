@@ -33,7 +33,7 @@ class WhiteMenu extends React.Component {
                 <Nav.Link className="item-nav" href="/SobreNosotros">Sobre Nosotros</Nav.Link>
                 <Nav.Link className="item-nav" href="/Servicios">Servicios</Nav.Link>
                 <Nav.Link className="item-nav" href="/PreguntasFrecuentes">Preguntas Frecuentes</Nav.Link>
-                <Nav.Link className="item-nav" href="#home">Contacto</Nav.Link>
+                <Nav.Link className="item-nav" href="/Contacto">Contacto</Nav.Link>
               </Form>
             </Col>
             <Col md="3" className="container-btn">

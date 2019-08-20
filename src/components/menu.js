@@ -25,7 +25,7 @@ class NavbarTest extends React.Component {
                             <span className="text-header">info@infoporcinos.com</span>
                             
                             </Col>
-                        <Col sm="auto">
+                        <Col className="margin-item" sm="auto">
                             <img  className="iconsheader" src={phoneinfo} />
                             <span className="text-header">+57 034 0000 000</span>
                             

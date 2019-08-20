@@ -23,7 +23,7 @@ import WhiteMenu from "../../components/whitemenu.js";
 class SobreNosotros extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home-styles">
         <NavbarTest />
         <WhiteMenu />
 
@@ -36,7 +36,7 @@ class SobreNosotros extends React.Component {
         </div>
 
         <div
-          className="bg-light mx-auto w-75 p-4"
+          className="mx-auto w-75 p-4"
           style={{ marginTop: "-40px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
@@ -277,7 +277,7 @@ class SobreNosotros extends React.Component {
             </Col>
           </Row>
         </div>
-        <Row className="p-4">
+        <Row className="foot p-4">
           <Col md={8} className="p-4 mx-auto">
             <div className="text-center">
               <p className="p-0 t6">
@@ -292,7 +292,7 @@ class SobreNosotros extends React.Component {
                 </span>
               </p>
             </div>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center style-foot">
               <Button className="Button mx-auto">Ver más</Button>
             </div>
           </Col>

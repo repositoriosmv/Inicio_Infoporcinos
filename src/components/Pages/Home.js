@@ -37,7 +37,7 @@ import desktop from "../../images/Mockup-Mac.png";
 class Home extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home-styles">
         <NavbarTest />
         <WhiteMenu />
         <Row>

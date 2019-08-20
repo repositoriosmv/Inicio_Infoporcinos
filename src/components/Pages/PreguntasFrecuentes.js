@@ -27,11 +27,11 @@ import DummyContent from "../../components/DummyContent.js";
 class PreguntasFrecuentes extends React.Component {
   render() {
     return (
-      <div>
+      <div className="home-styles">
         <NavbarTest />
         <WhiteMenu />
 
-        <div className="container-fluid fondop2">
+         <div className="container-fluid fondop2">
           <Col md={12} lg={12} sm={6}>
             <p className="titulop10">
               Preguntas<span className="containert titulop11">Frecuentes</span>
@@ -40,7 +40,7 @@ class PreguntasFrecuentes extends React.Component {
         </div>
 
         <div
-          className="bg-light mx-auto w-75 p-4"
+          className="mx-auto w-75 p-4"
           style={{ marginTop: "-40px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
@@ -153,9 +153,9 @@ class PreguntasFrecuentes extends React.Component {
               </div>
             </Col>
           </Row>
-        </div>
+        </div> 
 
-        <Row className="p-4">
+        <Row className= "foot p-4">
           <Col md={8} className="p-4 mx-auto">
             <div className="text-center">
               <p className="p-0 t6">

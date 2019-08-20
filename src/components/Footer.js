@@ -14,7 +14,7 @@ class Footer extends React.Component {
 
     return (
 
-      <MDBFooter color="blue" className="font-small pt-4 mt-4">
+      <MDBFooter color="blue" className="font-small">
         <MDBContainer fluid className="text-center text-md-left">
           <MDBRow className="p-4 mx-auto" style={{width: '90%'}}>
             <MDBCol xs="12" md={4}>
@@ -42,7 +42,7 @@ class Footer extends React.Component {
                 <p>Enlaces de Interés</p>
               </div>
               <div className="tst  py-2 text-center">
-                <p>Mercadeo Virtua <br />
+                <p>Mercadeo Virtual <br />
                   Red de Negocios <br />
                   Escuela de la Carne</p>
               </div>
@@ -52,11 +52,9 @@ class Footer extends React.Component {
         </MDBContainer>
         <div className="footer-copyright text-center">
           <MDBContainer fluid className="footerinfo d-flex">
-            <Col md={11}><a> Copyright © 2019 Mercadeo Virtual. Todos los derechos reservados </a>
+            <Col md={12}><a> Copyright © 2019 Mercadeo Virtual. Todos los derechos reservados </a>
             </Col>
-            <Col md={1}>
-            <Button className="bg-dark text-muted h5 text-center">^</Button>
-            </Col>
+            
           </MDBContainer>
         </div>
 
