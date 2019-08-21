@@ -304,7 +304,7 @@
 }
 
 .btn-margin {
-  padding-top: 12px;
+  padding-top: 7px;
 }
 
 .Buttons {
@@ -449,6 +449,7 @@
   font-size: 16px;
   font-family: Roboto;
   color: #767676;
+  padding-bottom: 34px;
 }
 
 .Button {
@@ -702,8 +703,10 @@
 
 .item-fluid
  {
-  display: inline-block;
-  text-align: center;
+    display: inline-block;
+    text-align: center;
+    padding-top: 61px;
+    padding-bottom: 42px;
 }
 
 .pantalla {
@@ -856,7 +859,7 @@
 }
 
 .t5p2 {
-  font-size: 3vmax;
+  font-size: 2rem;
   font-family: Raleway;
   color: #dd9835;
   font-weight: bold;
@@ -1017,4 +1020,16 @@
     position: relative;
     background-color: white;
     border-radius: 10px;
+}
+
+
+.circulo3
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 54%;
+    background: #DD9835;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
 }
