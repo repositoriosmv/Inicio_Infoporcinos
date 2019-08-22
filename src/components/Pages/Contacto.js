@@ -37,7 +37,7 @@ class Contacto extends React.Component {
         <WhiteMenu />
 
         <div className="home-styles">
-          <div className="container-fluid fondop2">
+          <div className="container-fluid fondop5">
             <Col md={12} lg={12} sm={6}>
               <p className="titulop10">
                 Datos de

@@ -31,7 +31,7 @@ class PreguntasFrecuentes extends React.Component {
         <NavbarTest />
         <WhiteMenu />
 
-         <div className="container-fluid fondop2">
+         <div className="container-fluid fondop4">
           <Col md={12} lg={12} sm={6}>
             <p className="titulop10">
               Preguntas<span className="containert titulop11">Frecuentes</span>

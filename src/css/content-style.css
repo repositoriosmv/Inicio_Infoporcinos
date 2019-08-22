@@ -856,6 +856,7 @@
   display: flex;
   align-items: center;
   background-size: cover;
+  background-position-y: center;
 }
 
 .t5p2 {
@@ -937,7 +938,7 @@
   box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.3);
 }
 
-/* Pagina3 */
+/* Servicios */
 
 .fondop3 {
   background-image: url("../images/ImageServicios.jpg");
@@ -945,9 +946,35 @@
   display: flex;
   align-items: center;
   background-size: cover;
+  background-position-y: center;
 }
 
-/* Pagina4 */
+ul {
+        list-style: none;
+    }
+
+ul li::before {
+    content: "\2022";
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Servicios */
+
+/* PreguntasFrecuentes */
+
+.fondop4 {
+     background-image: url("../images/question-img.jpg");
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position-y: center;
+}
+
 
 .accordion {
   border-radius: 5px;
@@ -1012,6 +1039,8 @@
   background-color: #f5f5f5;
 }
 
+/* PreguntasFrecuentes */
+
 /*Contacto*/
 
 .containertop {
@@ -1033,3 +1062,45 @@
     display: inline-flex;
     justify-content: center;
 }
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 0.375rem .75rem;
+    /* padding-bottom: 0px; */
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+input:focus, input.form-control:focus {
+   outline: none!important;
+   outline-width: 0!important;
+   box-shadow: none!important;
+   border: 1px solid #DD9835;
+}
+
+input:focus, textarea.form-control:focus {
+   outline: none!important;
+   outline-width: 0!important;
+   box-shadow: none!important;
+   border: 1px solid #DD9835;
+}
+
+.fondop5 {
+     background-image: url(/static/media/contact-img.c92c1cf8.jpg);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position-y: center;
+}
+
+/*Contacto*/

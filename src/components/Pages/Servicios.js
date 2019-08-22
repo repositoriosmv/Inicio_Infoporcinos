@@ -14,6 +14,13 @@ import {
   MDBCarousel
 } from "mdbreact";
 
+
+//Icons
+
+import planta from "../../icons/planta-b.svg";
+import enterprise from "../../icons/empresa.svg";
+import productor from "../../icons/productor-w.svg";
+
 //Components
 import NavbarTest from "../menu.js";
 import Footer from "../Footer.js";
@@ -91,14 +98,14 @@ class Servicios extends React.Component {
               </p>
             </Col>
             <Col md={4} className="p-4">
-              <div className="text-left">
-                <ul className="t6p2 font-weight-bold">
-                  <li className="py-2 h6">Aplicaciones de Escritorio</li>
-                  <li className="py-2 h6">Aplicaciones Web</li>
-                  <li className="py-2 h6">Aplicaciones Moviles</li>
-                </ul>
-              </div>
-            </Col>
+                            <div className="text-left">
+                                <ul className="t6p2 font-weight-bold">
+                                    <li className="py-2 h6">Aplicaciones de Escritorio</li>
+                                    <li className="py-2 h6">Aplicaciones Web</li>
+                                    <li className="py-2 h6">Aplicaciones Moviles</li>
+                      </ul>
+                  </div>
+             </Col>
           </Row>
         </div>
         <div className="perfiles">
@@ -127,7 +134,9 @@ class Servicios extends React.Component {
             <div class="muestra2">
               <div className="container4">
                 <div className="circulo">
-                  <div className="iconos" />
+                  <div className="iconos">
+                   <img src={planta} />
+                   </div>
                 </div>
                 <div className="text24">Plan de Beneficio Porcino.</div>
                 <div className="w-50 mx-auto text-center py-4">
@@ -144,7 +153,9 @@ class Servicios extends React.Component {
             <div class="muestra2">
               <div className="container4">
                 <div className="circulo">
-                  <div className="iconos" />
+                  <div className="iconos">
+                    <img src={enterprise} />
+                </div>    
                 </div>
                 <div className="text24">Consumidores y Destinos.</div>
                 <div className="w-50 mx-auto text-center py-4">
@@ -160,7 +171,9 @@ class Servicios extends React.Component {
             <div class="muestra2">
               <div className="container4">
                 <div className="circulo">
-                  <div className="iconos" />
+                  <div className="iconos">
+                    <img src={productor} />
+                     </div>
                 </div>
                 <div className="text24">Productor y sus Granjas.</div>
                 <div className="w-50 mx-auto text-center py-4">
