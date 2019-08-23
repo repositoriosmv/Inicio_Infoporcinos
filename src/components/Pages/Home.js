@@ -40,31 +40,30 @@ class Home extends React.Component {
       <div className="home-styles">
         <NavbarTest />
         <WhiteMenu />
-        <Row>
-          <Col md={12} lg={12} sm={12}>
-            <img className="pigsinicio" src={pigs} />
-            <img className="desktopp" src={desktop} />
-          </Col>
 
-          <Col className="textospigs" md={12} lg={12} sm={6}>
-            <p className="titulop">APROVECHA AL MÁXIMO TODOS TUS RECURSOS</p>
-            <p className="titulop2">
-              El mejor sistema de <br />
-              información
+        <div className="container-fluid fondop1">
+          <Col md={12} lg={12} sm={6}>
+            <p className="tituloinicio">
+              APROVECHA AL MÁXIMO TODOS TUS RECURSOS
             </p>
 
-            <div className="containert">
-              <p className="titulop3">para tu negocio</p>
-            </div>
+            <p className="titulop10">
+              El mejor sistema de <br /> informacion{" "}
+              <span className="containert titulop11">para tu negocio</span>
+            </p>
           </Col>
-        </Row>
-        <Row>
-          <Col xs="12" md="2" />
+        </div>
 
-          <Col xs="12" md="8" className="textosinfo">
-            <div className="t4">Trazabilidad en Tiempo Real</div>
+        {/* <div className="container-fluid fondopantalla">
+          <Col md={12} lg={12} sm={6} />
+           <img className="desktopp "  src={desktop} />
+        </div> */}
+
+        <Row>
+          <Col xs={12} md={12} className="textosinfo">
+            <div className="t4 pt-1">Trazabilidad en Tiempo Real</div>
             <div className="t5">Acerca de Infoporcinos</div>
-            <div className="t6">
+            <div className="t6 px-1">
               <p>
                 Somos la mejor plataforma de Información para el sector de la
                 carne de cerdo. Buscamos crear e <br />
@@ -80,40 +79,12 @@ class Home extends React.Component {
               </button>
             </div>
           </Col>
-
-          <Col xs="12" md="2" />
         </Row>
-        <div class="full-container text-center">
-          <div class="row margen2">
-            <div class="col-lg-9 col-10 sobre">
-              <div class="muestra2">
-                <div className="MediumRow">
-                  <Row>
-                    <Col xs="12" md="4">
-                      <div className="text10">185</div>
-                      <div className="text11">
-                        GRANJAS ACTIVAS EN EL SISTEMA
-                      </div>
-                    </Col>
 
-                    <Col xs="12" md="4">
-                      <div className="text10">3,486,969</div>
-                      <div className="text11">
-                        CANALES CALIENTES
-                        <br />
-                        PORCINOS EVALUADOS
-                      </div>
-                    </Col>
 
-                    <Col xs="12" md="4">
-                      <div className="text10">12</div>
-                      <div className="text11">AÑOS EN EL MERCADO</div>
-                    </Col>
-                  </Row>
-                </div>
-              </div>
-            </div>
-          </div>
+
+        
+        <div class="text-center">
 
           <div class="row fondo">
             <div class="col-12">
@@ -122,12 +93,12 @@ class Home extends React.Component {
                   <Col xs="12" md="2" />
 
                   <Col xs="12" md="8">
-                    <div className="text16">
+                    <div className="text16 py-0 h4">
                       {" "}
                       Aprovecha al máximo cada recurso y optimiza los procesos
                       con nuestras ventajas competitivas{" "}
                     </div>
-                    <div className="text17">
+                    <div className="text17 py-0">
                       {" "}
                       ¿Qué tenemos{" "}
                       <p style={{ color: "#DD9835" }}>&nbsp;para ti?</p>{" "}
@@ -140,139 +111,50 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-
-          <div class="row margen sobre">
-            <div class="col-lg-3 col-10 sobre">
-              <div class="muestra2">
-                <div className="container4">
-                  <div className="circulo">
-                    <div className="iconos">
-                      <img src={process} />
-                    </div>
-                  </div>
-
-                  <div className="text21">Sistema de Trazabilidad</div>
-                  <div className="text24">
-                    Permite a el control y seguimiento del producto, <br /> en
-                    cada uno de los procesos.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-10">
-              <div class="muestra2">
-                <div className="container4">
-                  <div className="circulo">
-                    <div className="iconos">
-                      <img src={key} />
-                    </div>
-                  </div>
-
-                  <div className="text21">Niveles de Acceso </div>
-                  <div className="text24">
-                    {" "}
-                    Divide cada usuario según su rol y permite <br /> acceso a
-                    diferentes secciones.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-10">
-              <div class="muestra2">
-                <div className="container4">
-                  <div className="circulo">
-                    <div className="iconos">
-                      <img src={pass} />
-                    </div>
-                  </div>
-
-                  <div className="text21">Claves Unicas </div>
-                  <div className="text24">
-                    La seguridad de la información de cada <br /> usuario es
-                    importante.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="full-container text-center">
-          <div class="textos">
-            <h5>La Mejor Optimización </h5>
-            <h2>¡Nuestro Nuevo Módulo!</h2>
-          </div>
-          <div class="row">
-            <div class="col-lg-3 col-md-12 col-sm-12">
-              <div class="muestra">
-                <div class="item">
-                  <div class="circulo2">
-                    <img class="iconos" src={pen} />
-                  </div>
-                  <div class="contenido">
-                    <p className="titulos">Diseño estético e interactivo</p>
-                    <span class="text">
-                      Lorem Ipsum dolor sit met, consectetur adipiscing elit,
-                      sed do eiusmod tempor.
-                    </span>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="circulo2">
-                    <img class="iconos" src={check} />
-                  </div>
-                  <div class="contenido">
-                    <p className="titulos">Mantente al día</p>
-                    <span class="text">
-                      Lorem Ipsum dolor sit met, consectetur adipiscing elit,
-                      sed do eiusmod tempor.
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="muestra">
-                <img class="pantalla" src={desktop} />
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-12 col-sm-12">
-              <div class="muestra">
-                <div class="item">
-                  <div class="circulo2">
-                    <img class="iconos" src={user} />
-                  </div>
-                  <div class="contenido">
-                    <p className="titulos">Experiencia simple y óptima</p>
-                    <span class="text">
-                      Lorem Ipsum dolor sit met, consectetur adipiscing elit,
-                      sed do eiusmod tempor.
-                    </span>
-                  </div>
-                </div>
-
-                <div class="item">
-                  <div class="circulo2">
-                    <img class="iconos" src={update} />
-                  </div>
-                  <div class="contenido">
-                    <p className="titulos">Actualizaciones frecuentes</p>
-                    <span class="text">
-                      Lorem Ipsum dolor sit met, consectetur adipiscing elit,
-                      sed do eiusmod tempor.
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* <div className="w-75 h-100 mx-auto" style={{ marginTop: "-100px" }}>
+            <Gallery />
+          </div> */}
+          <div class="row margen sobre" />
         </div>
 
-        <MDBContainer className="carousel_inicio">
+        <Row>
+          <Col md={2} />
+
+          <Col md={8}>
+            <container-fluid text-center>
+              <Row className="containerpp">
+                <Col className="item-fluid">
+                  {" "}
+                  <div class="contenido">
+                    <p className="titulosinicio">185</p>
+                    <span class="textinicio">GRANJAS ACTIVAS EN EL SISTEMA</span>
+                  </div>
+                </Col>
+                <Col className="item-fluid">
+                  <div class="contenido">
+                    <p className="titulosinicio">3,486,969</p>
+                    <span class="textinicio">
+                      CANALES CALIENTES PORCINOS EVALUADOS
+                    </span>
+                  </div>
+                </Col>
+                <Col className="item-fluid">
+                  <div class="contenido">
+                    <p className="titulosinicio">12</p>
+                    <span class="textinicio">AÑOS EN EL MERCADO</span>
+                  </div>
+                </Col>
+              </Row>
+            </container-fluid>
+          </Col>
+
+          <Col md={2} />
+        </Row>
+
+         
+
+      
+        <MDBContainer-fluid className="carousel_inicio">
           <MDBCarousel
             activeItem={1}
             length={3}
@@ -324,7 +206,6 @@ class Home extends React.Component {
               <MDBCarouselItem itemId="3">
                 <MDBView>
                   <Row>
-                    
                     <Col xs="12" md="2" />
                     <Col xs="12" md="8">
                       <div className="txtslide">
@@ -343,7 +224,8 @@ class Home extends React.Component {
               </MDBCarouselItem>
             </MDBCarouselInner>
           </MDBCarousel>
-        </MDBContainer>
+        </MDBContainer-fluid>
+
         <Footer />
       </div>
     );

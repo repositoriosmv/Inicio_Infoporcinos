@@ -233,7 +233,7 @@ class Servicios extends React.Component {
               </p>
             </div>
             <div className="d-flex justify-content-center">
-              <Button className="Button mx-auto rounded-pill">
+              <Button  href="/Actualizaciones" className="Button mx-auto rounded-pill">
                 Ver Historial
               </Button>
             </div>
