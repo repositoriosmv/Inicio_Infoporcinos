@@ -18,6 +18,7 @@ import {
 import NavbarTest from "../../components/menu.js";
 import Footer from "../../components/Footer.js";
 import WhiteMenu from "../../components/whitemenu.js";
+import Gallery from "../../components/slider.js";
 
 // images and icons
 import update from "../../icons/update.svg";
@@ -40,7 +41,6 @@ class Home extends React.Component {
       <div className="home-styles">
         <NavbarTest />
         <WhiteMenu />
-
         <div className="container-fluid fondop1">
           <Col md={12} lg={12} sm={6}>
             <p className="tituloinicio">
@@ -53,11 +53,6 @@ class Home extends React.Component {
             </p>
           </Col>
         </div>
-
-        {/* <div className="container-fluid fondopantalla">
-          <Col md={12} lg={12} sm={6} />
-           <img className="desktopp "  src={desktop} />
-        </div> */}
 
         <Row>
           <Col xs={12} md={12} className="textosinfo">
@@ -81,43 +76,7 @@ class Home extends React.Component {
           </Col>
         </Row>
 
-
-
-        
-        <div class="text-center">
-
-          <div class="row fondo">
-            <div class="col-12">
-              <div class="muestra3">
-                <Row className="BlackRow">
-                  <Col xs="12" md="2" />
-
-                  <Col xs="12" md="8">
-                    <div className="text16 py-0 h4">
-                      {" "}
-                      Aprovecha al máximo cada recurso y optimiza los procesos
-                      con nuestras ventajas competitivas{" "}
-                    </div>
-                    <div className="text17 py-0">
-                      {" "}
-                      ¿Qué tenemos{" "}
-                      <p style={{ color: "#DD9835" }}>&nbsp;para ti?</p>{" "}
-                    </div>
-                    {/* <div className="text18" > para ti? </div> */}
-                  </Col>
-
-                  <Col xs="12" md="2" />
-                </Row>
-              </div>
-            </div>
-          </div>
-          {/* <div className="w-75 h-100 mx-auto" style={{ marginTop: "-100px" }}>
-            <Gallery />
-          </div> */}
-          <div class="row margen sobre" />
-        </div>
-
-        <Row>
+        {/* <Row>
           <Col md={2} />
 
           <Col md={8}>
@@ -127,7 +86,9 @@ class Home extends React.Component {
                   {" "}
                   <div class="contenido">
                     <p className="titulosinicio">185</p>
-                    <span class="textinicio">GRANJAS ACTIVAS EN EL SISTEMA</span>
+                    <span class="textinicio">
+                      GRANJAS ACTIVAS EN EL SISTEMA
+                    </span>
                   </div>
                 </Col>
                 <Col className="item-fluid">
@@ -149,12 +110,11 @@ class Home extends React.Component {
           </Col>
 
           <Col md={2} />
-        </Row>
+        </Row> */}
 
-         
+        {/* */}
 
-      
-        <MDBContainer-fluid className="carousel_inicio">
+        {/* <MDBContainer-fluid className="carousel_inicio">
           <MDBCarousel
             activeItem={1}
             length={3}
@@ -224,8 +184,67 @@ class Home extends React.Component {
               </MDBCarouselItem>
             </MDBCarouselInner>
           </MDBCarousel>
-        </MDBContainer-fluid>
+        </MDBContainer-fluid> */}
 
+        <div class="full-container text-center">
+          <div class="row margen2">
+            <div class="col-lg-9 col-10 sobre">
+              <Row>
+                <Col md={2} />
+
+                <Col md={8}>
+                  <container-fluid text-center>
+                    <Row className="containerpp">
+                      <Col className="item-fluid">
+                        {" "}
+                        <div class="contenido">
+                          <p className="titulosinicio">185</p>
+                          <span class="textinicio">
+                            GRANJAS ACTIVAS EN EL SISTEMA
+                          </span>
+                        </div>
+                      </Col>
+                      <Col className="item-fluid">
+                        <div class="contenido">
+                          <p className="titulosinicio">3,486,969</p>
+                          <span class="textinicio">
+                            CANALES CALIENTES PORCINOS EVALUADOS
+                          </span>
+                        </div>
+                      </Col>
+                      <Col className="item-fluid">
+                        <div class="contenido">
+                          <p className="titulosinicio">12</p>
+                          <span class="textinicio">AÑOS EN EL MERCADO</span>
+                        </div>
+                      </Col>
+                    </Row>
+                  </container-fluid>
+                </Col>
+
+                <Col md={2} />
+              </Row>
+            </div>
+          </div>
+
+          <div class="rowfondo">
+            <div class="col-12">
+              <div class="muestra">
+                <span class="text-sub">
+                  Aprovecha al máximo cada recurso y optimiza los procesos con
+                  nuestras ventajas competitivas
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row margen sobre">
+
+            <Gallery />
+
+
+          </div>
+        </div>
         <Footer />
       </div>
     );

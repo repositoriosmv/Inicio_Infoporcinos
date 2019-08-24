@@ -611,15 +611,13 @@
      font-size: 17px;
     font-family: Raleway;
     color: #ffffff;
-    text-align: center; 
-    margin-top: 84px;
+    
 }
 
 .text17 {
     font-size: 3.3vmax;
     font-family: Raleway;
     color: #ffffff;
-    text-align: center; 
     display: -webkit-inline-box;
 }
 
@@ -1221,7 +1219,8 @@ textarea.form-control:focus {
 
 .textinicio {
   font-family: Raleway;
-    color: #767676;
+  color: #767676;
+  font-size: 12px;
 }
 
 .containerpp
@@ -1234,8 +1233,71 @@ textarea.form-control:focus {
 
 
 }
-  
 
+  
+.BLACK
+
+ {
+    background-color: #212121;
+    height: 300px;
+
+ } 
+
+ .middleblack
+ {
+    text-align: center;
+    justify-content: center;
+    padding: 55px;
+
+ }
+
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+
+.rowfondo
+{
+
+      background-color: #212121;
+}
 
 
 /*Home*/
