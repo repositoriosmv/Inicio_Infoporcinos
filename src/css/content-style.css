@@ -865,6 +865,21 @@
 }
 
 /* pagina-2 */
+.fondocentro 
+{
+
+  background-color: #212121;
+}
+
+.cuadroiferior
+
+{
+
+background-image: url("../images/1.png");
+
+
+
+}
 
 .pagestwo {
   height: 250px;
