@@ -19,6 +19,11 @@ class WhiteMenu extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="logop logomovil">
+                <div>
+                  <img src={logo} />
+                </div>
+              </Nav>
           <Row className="margin-navbar">
             <Col md="auto">
               <Nav>

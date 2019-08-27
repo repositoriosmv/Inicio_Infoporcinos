@@ -40,7 +40,7 @@ class PreguntasFrecuentes extends React.Component {
         </div>
 
         <div
-          className="mx-auto w-75 p-4"
+          className="mx-auto w-75"
           style={{ marginTop: "-40px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
@@ -60,94 +60,115 @@ class PreguntasFrecuentes extends React.Component {
             </Col>
           </Row>
 
-          <Row className="p-4">
-            <Col md={6} className="p-4">
+          <Row className="">
+            <Col xs={12} md={6} className="">
               <div>
                 <div class="SeccionCollapse">
-                  <h1>Título sección de preguntas</h1>
+                <h6 className="text-secondary">Título sección de preguntas</h6>
                   <Accordion atomic={true}>
+                    <div className='py-2'>
                     <AccordionItem title="¿Quis nostrud ullamco?">
                       <DummyContent />
                     </AccordionItem>
-
-                    <AccordionItem title="Title 2">
+                    </div>
+                    <div className='py-2'>
+                    <AccordionItem title="Title 2"  >
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 3">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 4">
                       <DummyContent />
                     </AccordionItem>
+                    </div>
                   </Accordion>
                 </div>
 
                 <div class="SeccionCollapse2">
-                  <h1>Título sección de preguntas</h1>
+                <h6 className="text-secondary">Título sección de preguntas</h6>
+                  
                   <Accordion atomic={true}>
-                    <AccordionItem title="Title 1">
+                  <div className='py-2'>
+                    <AccordionItem title="¿Quis nostrud ullamco?">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 2">
                       <DummyContent />
                     </AccordionItem>
-
+                      </div>
+                      <div className='py-2'>
                     <AccordionItem title="Title 3">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 4">
                       <DummyContent />
                     </AccordionItem>
+                    </div>
                   </Accordion>
                 </div>
               </div>
             </Col>
 
-            <Col md={6} className="p-4">
+            <Col xs={12} md={6} className="mx-auto">
               <div>
                 <div class="SeccionCollapse">
-                  <h1>Título sección de preguntas</h1>
-                  <Accordion atomic={true}>
+                <h6 className="text-secondary">Título sección de preguntas</h6>
+                <Accordion atomic={true}>
+                  <div className='py-2'>
                     <AccordionItem title="¿Quis nostrud ullamco?">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 2">
                       <DummyContent />
                     </AccordionItem>
-
+                      </div>
+                      <div className='py-2'>
                     <AccordionItem title="Title 3">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 4">
                       <DummyContent />
                     </AccordionItem>
+                    </div>
                   </Accordion>
                 </div>
 
                 <div class="SeccionCollapse2">
-                  <h1>Título sección de preguntas</h1>
-                  <Accordion atomic={true}>
-                    <AccordionItem title="Title 1">
+                <h6 className="text-secondary">Título sección de preguntas</h6>
+                <Accordion atomic={true}>
+                  <div className='py-2'>
+                    <AccordionItem title="¿Quis nostrud ullamco?">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 2">
                       <DummyContent />
                     </AccordionItem>
-
+                      </div>
+                      <div className='py-2'>
                     <AccordionItem title="Title 3">
                       <DummyContent />
                     </AccordionItem>
-
+                    </div>
+                    <div className='py-2'>
                     <AccordionItem title="Title 4">
                       <DummyContent />
                     </AccordionItem>
+                    </div>
                   </Accordion>
                 </div>
               </div>
