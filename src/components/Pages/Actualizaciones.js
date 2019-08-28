@@ -21,6 +21,7 @@ import NavbarTest from "../../components/menu.js";
 import Footer from "../../components/Footer.js";
 import WhiteMenu from "../../components/whitemenu.js";
 import DummyContent from "../../components/DummyContent.js";
+import Sliderpages from "../../components/Sliderpages.js";
 
 //images and icons
 
@@ -46,7 +47,10 @@ class Actualizaciones extends React.Component {
             </p>
           </Col>
         </div>
-
+        <Col md={12} lg={12} sm={12}>
+        <Sliderpages/>
+        </Col>
+        
         <Row className="foot p-4">
           <Col md={8} className="p-4 mx-auto">
             <div className="text-center">

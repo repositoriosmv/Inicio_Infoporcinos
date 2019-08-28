@@ -1,26 +1,23 @@
 import React from 'react';
 import ItemsCarousel from 'react-items-carousel';
-import range from 'lodash/range';
+// import range from 'lodash/range';
 import process from "../icons/process.svg";
-import { Col } from 'react-bootstrap'
+import key from "../icons/key.svg";
+import pass from "../icons/pass.svg";
+// import { Col } from 'react-bootstrap'
 
 export default class Gallery extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      windowSize: "",
-      thumbWidth: 75
+      windowSize: window.innerWidth,
     };
   }
 
   handleResize = e => {
     const windowSize = window.innerWidth;
-    const thumbWidth = (windowSize >= 480 && 100) || 75;
-    this.setState(prevState => {
-      return {
-        windowSize,
-        thumbWidth
-      };
+    this.setState({
+      windowSize : windowSize
     });
   };
 
@@ -32,7 +29,6 @@ export default class Gallery extends React.Component {
     window.addEventListener("resize", this.handleResize);
   }
   componentWillMount() {
-
     this.setState({
       children: [],
       activeItemIndex: 0,
@@ -42,16 +38,20 @@ export default class Gallery extends React.Component {
 
       let createChildren = n => n.map(i =>
          <div className="bg-light rounded mx-4 pt-1" style={{ height: '100%' }}>
-              <div className="mx-auto mt-4 rounded-circle" style={{ height: '40px', width: '40px', backgroundColor: "#dd9835" }}>
-                <img src={process} className="w-100 h-100 mx-auto" />
+               {i}
+                
               </div>
-              {i}
-            </div> 
+             
+            
 
       );
 
       let onetarjet = (
         <div>
+
+          <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+                <img src={process} className="w-100 h-100 mx-auto" />
+              </div>
           <div className="text21">Sistema de Trazabilidad</div>
           <div className="text-center text-secondary p-4"><p>
             Permite a el control y seguimiento del producto, <br /> en
@@ -61,6 +61,9 @@ export default class Gallery extends React.Component {
       );
       let twotarjet = (
         <div>
+           <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+                <img src={key} className="w-100 h-100 mx-auto" />
+              </div>
           <div className="text21">Niveles de Acceso </div>
           <div className="text-center text-secondary p-4">
             {" "}
@@ -71,6 +74,9 @@ export default class Gallery extends React.Component {
       );
       let threetarjet = (
         <div>
+            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+                <img src={pass} className="w-100 h-100 mx-auto" />
+              </div>
           <div className="text21">Claves Unicas </div>
           <div className="text-center text-secondary p-4">
             La seguridad de la información de cada <br /> usuario es
@@ -80,7 +86,10 @@ export default class Gallery extends React.Component {
       );
       let fourtarjet = (
         <div>
-          <div className="text21">Sistema de Trazabilidad</div>
+            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+                <img src={process} className="w-100 h-100 mx-auto" />
+              </div>
+          <div  className="text21">Sistema de Trazabilidad</div>
           <div className="text24">
             Permite a el control y seguimiento del producto, <br /> en
             cada uno de los procesos.
@@ -89,6 +98,9 @@ export default class Gallery extends React.Component {
       );
       let fivetarjet = (
         <div>
+            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+                <img src={key} className="w-100 h-100 mx-auto" />
+              </div>
           <div className="text21">Niveles de Acceso </div>
           <div className="text24">
             {" "}
@@ -99,6 +111,9 @@ export default class Gallery extends React.Component {
       );
       let sixtarjet = (
         <div>
+            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+                <img src={pass} className="w-100 h-100 mx-auto" />
+              </div>
           <div className="text21">Claves Unicas </div>
           <div className="text24">
             La seguridad de la información de cada <br /> usuario es
@@ -162,4 +177,3 @@ export default class Gallery extends React.Component {
     );
   }
 }
-

@@ -21,7 +21,7 @@ class WhiteMenu extends React.Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="logop logomovil">
                 <div>
-                  <img src={logo} />
+                  <img src={logo}/>
                 </div>
               </Nav>
           <Row className="margin-navbar">

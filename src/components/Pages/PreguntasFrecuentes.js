@@ -125,17 +125,17 @@ class PreguntasFrecuentes extends React.Component {
                 <Accordion atomic={true}>
                   <div className='py-2'>
                     <AccordionItem title="¿Quis nostrud ullamco?">
-                      <DummyContent />
+                      <DummyContent/>
                     </AccordionItem>
                     </div>
                     <div className='py-2'>
                     <AccordionItem title="Title 2">
-                      <DummyContent />
+                      <DummyContent/>
                     </AccordionItem>
                       </div>
                       <div className='py-2'>
                     <AccordionItem title="Title 3">
-                      <DummyContent />
+                      <DummyContent/>
                     </AccordionItem>
                     </div>
                     <div className='py-2'>
