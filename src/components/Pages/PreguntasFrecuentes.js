@@ -40,7 +40,7 @@ class PreguntasFrecuentes extends React.Component {
         </div>
 
         <div
-          className="mx-auto w-75"
+          className="mx-auto w-75 p-4"
           style={{ marginTop: "-40px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
@@ -64,15 +64,15 @@ class PreguntasFrecuentes extends React.Component {
             <Col xs={12} md={6} className="">
               <div>
                 <div class="SeccionCollapse">
-                <h6 className="text-secondary">Título sección de preguntas</h6>
+                <h6 className="text-secondary">título sección de preguntas</h6>
                   <Accordion atomic={true}>
                     <div className='py-2'>
-                    <AccordionItem title="¿Quis nostrud ullamco?">
+                    <AccordionItem title="¿Quis  ullamco?">
                       <DummyContent />
                     </AccordionItem>
                     </div>
                     <div className='py-2'>
-                    <AccordionItem title="Title 2"  >
+                    <AccordionItem title="Title 2">
                       <DummyContent />
                     </AccordionItem>
                     </div>
@@ -94,7 +94,7 @@ class PreguntasFrecuentes extends React.Component {
                   
                   <Accordion atomic={true}>
                   <div className='py-2'>
-                    <AccordionItem title="¿Quis nostrud ullamco?">
+                    <AccordionItem title="¿Quis ullamco?">
                       <DummyContent />
                     </AccordionItem>
                     </div>
@@ -124,18 +124,18 @@ class PreguntasFrecuentes extends React.Component {
                 <h6 className="text-secondary">Título sección de preguntas</h6>
                 <Accordion atomic={true}>
                   <div className='py-2'>
-                    <AccordionItem title="¿Quis nostrud ullamco?">
-                      <DummyContent/>
+                    <AccordionItem title="¿Quis ullamco?">
+                      <DummyContent />
                     </AccordionItem>
                     </div>
                     <div className='py-2'>
                     <AccordionItem title="Title 2">
-                      <DummyContent/>
+                      <DummyContent />
                     </AccordionItem>
                       </div>
                       <div className='py-2'>
                     <AccordionItem title="Title 3">
-                      <DummyContent/>
+                      <DummyContent />
                     </AccordionItem>
                     </div>
                     <div className='py-2'>
