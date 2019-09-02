@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import animateScrollTo from 'animated-scroll-to';
 
 //Css
 import "../../css/content-style.css";
@@ -30,6 +31,9 @@ import phoneinfo from "../../icons/phone.svg";
 // import TimeLine from "../../components/TimeLine.js";
 
 class Contacto extends React.Component {
+  bottomClick() {
+    animateScrollTo(0);
+  }
   render() {
     return (
       <div>
@@ -205,7 +209,7 @@ class Contacto extends React.Component {
             </div>
           </Col>
         </Row>
-        <Footer />
+        <Footer bottomClick={this.bottomClick}/>
       </div>
     );
   }

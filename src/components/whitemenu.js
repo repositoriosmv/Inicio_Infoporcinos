@@ -16,24 +16,25 @@ class WhiteMenu extends React.Component {
   render() {
     return (
       <Navbar bg="light" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
-        <Navbar.Collapse id="basic-navbar-nav">
+        <div className='d-flex flex-row align-items-center'>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Nav className="logop logomovil">
-                <div>
-                  <img src={logo}/>
-                </div>
-              </Nav>
+            <div>
+              <img src={logo} />
+            </div>
+          </Nav>
+        </div>
+        <Navbar.Collapse id="basic-navbar-nav">
           <Row className="margin-navbar">
             <Col md="auto">
               <Nav>
-                <div className="logop">
+                <div className="logop logomovil_one">
                   <img src={logo} />
                 </div>
               </Nav>
             </Col>
             <Col className="items-menu">
-              <Form inline>
+              <Form inline className='nenucenter'>
                 <Nav.Link className="item-nav" href="/">Inicio</Nav.Link>
                 <Nav.Link className="item-nav" href="/SobreNosotros">Sobre Nosotros</Nav.Link>
                 <Nav.Link className="item-nav" href="/Servicios">Servicios</Nav.Link>
@@ -42,17 +43,17 @@ class WhiteMenu extends React.Component {
               </Form>
             </Col>
             <Col md="3" className="container-btn">
-                <Col md="auto" className="btn-margin">
-                    <Button className="einteresado">Estoy Interesado</Button>
-                </Col>
+              <Col md="auto" className="btn-margin">
+                <Button className="einteresado">Estoy Interesado</Button>
+              </Col>
 
-                <Col md="auto" className="btn-margin">
-                    <Button className="iniciarses">Iniciar Sesion</Button>
-                </Col>
+              <Col md="auto" className="btn-margin">
+                <Button className="iniciarses">Iniciar Sesion</Button>
+              </Col>
             </Col>
           </Row>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar >
 
     );
   }

@@ -4,6 +4,9 @@ import ItemsCarousel from 'react-items-carousel';
 import process from "../icons/process.svg";
 import key from "../icons/key.svg";
 import pass from "../icons/pass.svg";
+import { Icon } from 'react-icons-kit'
+import {chevronLeft} from 'react-icons-kit/ionicons/chevronLeft'
+import {chevronRight} from 'react-icons-kit/ionicons/chevronRight'
 // import { Col } from 'react-bootstrap'
 
 export default class Gallery extends React.Component {
@@ -17,7 +20,7 @@ export default class Gallery extends React.Component {
   handleResize = e => {
     const windowSize = window.innerWidth;
     this.setState({
-      windowSize : windowSize
+      windowSize: windowSize
     });
   };
 
@@ -37,21 +40,16 @@ export default class Gallery extends React.Component {
     setTimeout(() => {
 
       let createChildren = n => n.map(i =>
-         <div className="bg-light rounded mx-4 pt-1" style={{ height: '100%' }}>
-               {i}
-                
-              </div>
-             
-            
-
-      );
+        <div className="bg-light rounded mx-4 shadow pt-1" style={{ height: '95%' }}>
+           {i}
+        </div>);
 
       let onetarjet = (
         <div>
 
           <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
-                <img src={process} className="w-100 h-100 mx-auto" />
-              </div>
+            <img src={process} className="w-100 h-100 mx-auto" />
+          </div>
           <div className="text21">Sistema de Trazabilidad</div>
           <div className="text-center text-secondary p-4"><p>
             Permite a el control y seguimiento del producto, <br /> en
@@ -61,9 +59,9 @@ export default class Gallery extends React.Component {
       );
       let twotarjet = (
         <div>
-           <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
-                <img src={key} className="w-100 h-100 mx-auto" />
-              </div>
+          <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+            <img src={key} className="w-100 h-100 mx-auto" />
+          </div>
           <div className="text21">Niveles de Acceso </div>
           <div className="text-center text-secondary p-4">
             {" "}
@@ -74,9 +72,9 @@ export default class Gallery extends React.Component {
       );
       let threetarjet = (
         <div>
-            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
-                <img src={pass} className="w-100 h-100 mx-auto" />
-              </div>
+          <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+            <img src={pass} className="w-100 h-100 mx-auto" />
+          </div>
           <div className="text21">Claves Unicas </div>
           <div className="text-center text-secondary p-4">
             La seguridad de la información de cada <br /> usuario es
@@ -86,10 +84,10 @@ export default class Gallery extends React.Component {
       );
       let fourtarjet = (
         <div>
-            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
-                <img src={process} className="w-100 h-100 mx-auto" />
-              </div>
-          <div  className="text21">Sistema de Trazabilidad</div>
+          <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+            <img src={process} className="w-100 h-100 mx-auto" />
+          </div>
+          <div className="text21">Sistema de Trazabilidad</div>
           <div className="text24">
             Permite a el control y seguimiento del producto, <br /> en
             cada uno de los procesos.
@@ -98,9 +96,9 @@ export default class Gallery extends React.Component {
       );
       let fivetarjet = (
         <div>
-            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
-                <img src={key} className="w-100 h-100 mx-auto" />
-              </div>
+          <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+            <img src={key} className="w-100 h-100 mx-auto" />
+          </div>
           <div className="text21">Niveles de Acceso </div>
           <div className="text24">
             {" "}
@@ -111,9 +109,9 @@ export default class Gallery extends React.Component {
       );
       let sixtarjet = (
         <div>
-            <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
-                <img src={pass} className="w-100 h-100 mx-auto" />
-              </div>
+          <div className="mx-auto mt-4 rounded-circle" style={{ height: '45px', width: '45px', backgroundColor: "#dd9835" }}>
+            <img src={pass} className="w-100 h-100 mx-auto" />
+          </div>
           <div className="text21">Claves Unicas </div>
           <div className="text24">
             La seguridad de la información de cada <br /> usuario es
@@ -139,10 +137,10 @@ export default class Gallery extends React.Component {
     } = this.state;
 
     let adelante = (
-      <div className='rounded-circle text-center py-1 text-light' style={{ height: '40px', width: '70px', backgroundColor: "#dd9835" }}> {'<'} </div>
+      <div className='rounded-circle text-center py-1 text-light' style={{ height: '40px', width: '70px', backgroundColor: "#dd9835" }}> <Icon icon={chevronLeft} className='pt-1'/> </div>
     )
     let atras = (
-      <div className='rounded-circle text-center py-1 text-light' style={{ height: '40px', width: '400px', backgroundColor: "#dd9835" }}> {'>'} </div>
+      <div className='rounded-circle text-center py-1 text-light' style={{ height: '40px', width: '400px', backgroundColor: "#dd9835" }}> <Icon icon={chevronRight} className='pt-1'/> </div>
     )
     let card = this.state.windowSize > 800 ? 3 : 1;
     console.log('card ', card);

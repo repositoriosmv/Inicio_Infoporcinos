@@ -30,9 +30,9 @@ import Carousel from "../../components/carousel.js";
 const data = [
   {
     id: 0,
-    header: "NOMBRE DE MODULO 1",
+    header: "Módulo Medición",
     body:
-      "Swag biodiesel disrupt retro fashion, salvia food truck kitsch wolf DIY biodiesel disrupt retro...",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     colour: "white"
   },
   {
@@ -85,7 +85,7 @@ class Servicios extends React.Component {
 
         <div
           className="mx-auto w-75 p-4"
-          style={{ marginTop: "-40px", borderRadius: "10px" }}
+          style={{ marginTop: "-79px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
             <Col
@@ -113,7 +113,7 @@ class Servicios extends React.Component {
                   <br />
                   <span
                     className="t5p2 h3 font-weight-bold"
-                    style={{ fontSize: "13px" }}
+                    style={{ fontSize: "43px" }}
                   >
                     Los procesos relacionados al sector Porcino
                   </span>

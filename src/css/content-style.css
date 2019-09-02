@@ -45,6 +45,22 @@
   }
 }
 
+@media (max-width: 454px) 
+
+{
+
+.containertop {
+   
+    display: block;
+}
+
+
+}
+
+
+
+
+
 @media (max-width: 320px) {
   .home-styles {
     margin: 0%;
@@ -133,6 +149,7 @@
 }
 
 .textosinfo {
+  width: 100%;
   text-align: center;
   padding-top: 98px;
   padding-bottom: 0px;
@@ -230,17 +247,10 @@
 }
 
 .logofooter {
-  margin-top: 16px;
+  margin-top: 5px;
   height: 103px;
   width: 30vmax;
 }
-
-/* .f
-
-{
-    background-color: #707070; 
-    height: 50px;
-} */
 
 .tt {
   font-family: Raleway;
@@ -266,6 +276,7 @@
   font-family: Raleway;
   color: #dd9835;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .firstdiv {
@@ -338,6 +349,7 @@
   display: inline-flex;
   font-family: Raleway;
   font-size: 12px;
+  border-radius: 14px;
 }
 
 .iniciarses {
@@ -404,7 +416,7 @@
 
 @media only screen and (min-width: 1023px) {
   .desktopp {
-    top: 310px;
+     top: 310px;
     left: 57%;
     position: absolute;
     width: 43vmax;
@@ -476,7 +488,7 @@
 .Button {
   background-color: #dd9835 !important;
   border: #dd9835 !important;
-    border-radius: 16px;
+  border-radius: 14px;
 }
 
 .ButtonAcerca {
@@ -589,7 +601,7 @@
   font-family: Raleway;
   color: #ffffff;
   text-align: center;
-  margin-top: 84px;
+  margin-top: 108px;
 }
 
 .text17 {
@@ -758,8 +770,8 @@
 }
 
 .pantalla {
-  width: 31vmax;
-  height: 25vmax;
+  width: 33vmax;
+  height: 30vmax;
 }
 
 .full-container text-center {
@@ -772,10 +784,11 @@
 }
 
 .textos {
-  /* font-family: Raleway; */
+
   font-weight: bold;
   font-size: 44px;
   margin-top: 74px;
+  margin-top: 166px;
 }
 
 .w-100 {
@@ -787,8 +800,10 @@
 }
 
 .BlackRow {
+  width: 100%;
   height: 322px;
   margin-top: 10px;
+  margin-right: -0px !important;
 }
 
 .muestra3 {
@@ -901,7 +916,7 @@
 
 .fondop2 {
   background-image: url("../images/SobreNosotros.jpg");
-  height: 200px;
+  height: 235px;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -909,7 +924,9 @@
 }
 
 .t5p2 {
-  font-size: 2vmax;
+
+
+  font-size: 31px;
   font-family: Raleway;
   color: #dd9835;
   font-weight: bold;
@@ -942,6 +959,12 @@
   margin-top: -70px;
 }
 
+.blacksb
+{
+background-color: #212121
+
+}
+
 .text17p3 {
   font-size: 3.3vmax;
   font-family: Raleway;
@@ -954,11 +977,6 @@
   width: 100%;
   height: 300px;
   background-color: #2b2b2b;
-}
-
-.blacksb
-{
-    background-color: #212121;
 }
 
 /* home */
@@ -996,7 +1014,7 @@
 
 .fondop3 {
   background-image: url("../images/ImageServicios.jpg");
-  height: 200px;
+  height: 235px;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -1022,7 +1040,7 @@ ul li::before {
 
 .fondop4 {
   background-image: url("../images/question-img.jpg");
-  height: 200px;
+  height: 235px;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -1042,20 +1060,19 @@ ul li::before {
   border-radius: 60px;
   box-shadow: 0px 8px 8px -5px rgba(0, 0, 0, 0.3);
   height: 50px;
+  background-color: white;
 }
 
 .accordion .accordion-item .title {
-  background-color: #f6f6f6;
-  color: #444;
+  color: #767676;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   text-align: left;
   border: none;
   outline: none;
-  -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
   transition: 0.4s;
+  font-weight: normal;
 }
 
 .accordion .accordion-item .title:after {
@@ -1091,10 +1108,18 @@ ul li::before {
 
 .SeccionCollapse {
   padding-bottom: 85px;
+
+  padding-top: 73px;
 }
 
 .foot {
+  width: 100%;
   background-color: #f5f5f5;
+}
+
+.text-secondary {
+  color: #6c757d !important;
+  font-weight: normal;
 }
 
 /* PreguntasFrecuentes */
@@ -1154,7 +1179,7 @@ textarea.form-control:focus {
 
 .fondop5 {
   background-image: url("../images/contact-img.jpg");
-  height: 200px;
+  height: 235px;
   display: flex;
   align-items: center;
   background-size: cover;
@@ -1201,35 +1226,25 @@ textarea.form-control:focus {
 
 /*Actualizaciones*/
 
-.bg-white2
-{
-      /* -webkit-writing-mode: horizontal-tb !important; */
-    /* text-rendering: auto; */
-    /* color: buttontext; */
-    /* letter-spacing: normal; */
-    /* word-spacing: normal; */
-    /* text-transform: none; */
-    /* text-indent: 0px; */
-    /* text-shadow: none; */
+.bg-white2 {
+    background-color: #fff!important;
+    text-indent: 0px;
+    text-shadow: none;
     display: inline-block;
-    /* text-align: center; */
-    /* align-items: flex-start; */
-    /* cursor: default; */
-    background-color: transparent;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
     box-sizing: border-box;
     margin: 0em;
     font: 400 13.3333px Arial;
     padding: 1px 6px;
     border-width: 0px;
-    /* border-style: outset; */
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
     color: #707070;
-    /* border-color: buttonface; */
-    /* border-image: initial; */
 }
-
-
-
-
 
 /*Home*/
 
@@ -1259,9 +1274,9 @@ textarea.form-control:focus {
 }
 
 .textinicio {
-  font-family: Raleway;
-  color: #767676;
-  font-size: 12px;
+    font-family: Raleway;
+    color: #767676;
+    font-size: 12px;
 }
 
 .containerpp {
@@ -1306,6 +1321,8 @@ textarea.form-control:focus {
     margin-left: 0px !important;
   }
   .pantalla {
+     width: 32vmax;
+    height: 23vmax;
     margin-top: 30px !important;
   }
 }
@@ -1367,6 +1384,7 @@ textarea.form-control:focus {
 }
 
 
+
 .selectors {
   position: absolute;
   top: 0;
@@ -1388,7 +1406,7 @@ textarea.form-control:focus {
   border-radius: 50%;
   margin: 5px 0;
   cursor: pointer;
-  background: #dd9835;
+  background: #707070;
 }
 
 .selectors .selector:hover {
@@ -1397,7 +1415,7 @@ textarea.form-control:focus {
 }
 
 .selectors .selector:active {
-  background: #dd9835;
+  color: #dd9835;
   opacity: 0.9;
 }
 
@@ -1488,20 +1506,35 @@ aside.panel p.panel-info {
 }
 
 .imag_sobreN {
-  background-image: url("../images/servicios.jpg");
-  width: 21vmax;
-  height: 12vmax;
+  background-image: url("../images/SobreNosSmall.jpg");
+  width: 27vmax;
+  height: 15vmax;
   background-size: cover;
-  border-radius: 18px;
 }
 
+@media (max-width: 768px) {
+  .boton-up {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    width: 100% !important;
+  }
+  .boton {
+    width: 80% !important;
+  }
+  .margeninferior {
+    height: 700% !important;
+  }
+  .textoslider {
+    font-size: 12px;
+  }
+  .nenucenter {
+    display: flex;
+    justify-content: center;
+  }
+}
 
-.ezrFze {
-    width: 404px;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin-right: 6px;
-    margin-left: 9px;
-
+@media (min-width: 769px) {
+  .Copyright {
+    margin-left: 100px;
+  }
 }

@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 //Css
 import "../../css/content-style.css";
 
+
 //Bootstrap
 
 import { Container, Col, Row, Button } from "react-bootstrap";
@@ -25,6 +26,7 @@ import DummyContent from "../../components/DummyContent.js";
 // import TimeLine from "../../components/TimeLine.js";
 
 class PreguntasFrecuentes extends React.Component {
+ 
   render() {
     return (
       <div className="home-styles">
@@ -41,7 +43,7 @@ class PreguntasFrecuentes extends React.Component {
 
         <div
           className="mx-auto w-75 p-4"
-          style={{ marginTop: "-40px", borderRadius: "10px" }}
+          style={{ marginTop: "-79px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
             <Col
@@ -64,7 +66,7 @@ class PreguntasFrecuentes extends React.Component {
             <Col xs={12} md={6} className="">
               <div>
                 <div class="SeccionCollapse">
-                <h6 className="text-secondary">título sección de preguntas</h6>
+                <h6 className="text-secondary">Título sección de preguntas</h6>
                   <Accordion atomic={true}>
                     <div className='py-2'>
                     <AccordionItem title="¿Quis  ullamco?">
@@ -197,7 +199,7 @@ class PreguntasFrecuentes extends React.Component {
           </Col>
         </Row>
 
-        <Footer />
+        <Footer bottomClick={this.bottomClick}/>
       </div>
     );
   }

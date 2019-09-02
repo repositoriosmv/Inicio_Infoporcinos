@@ -100,7 +100,7 @@ export default class Timeline extends React.Component {
         <div className="text-center">
           {/* any arbitrary component can go here */}
          <p className="font-weight-bold"> {curStatus}</p>
-         <p style={{ color : 'gray'}}>{curStatusE}</p> -  
+         <p className='textoslider' style={{ color : 'gray'}}>{curStatusE}</p> -  
         </div>
       </div>
     );

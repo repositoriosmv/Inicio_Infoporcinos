@@ -2,6 +2,7 @@ import React from "react";
 
 //Css
 import "../../css/content-style.css";
+import animateScrollTo from 'animated-scroll-to';
 
 //Bootstrap
 
@@ -18,13 +19,15 @@ import {
 import NavbarTest from "../../components/menu.js";
 import Footer from "../../components/Footer.js";
 import WhiteMenu from "../../components/whitemenu.js";
-import TimeLine from "../TimeLine.js";
-import pigs from "../../images/1.png";
+import Timeline from "../../components/Timeline.js";
 
 class SobreNosotros extends React.Component {
+  bottomClick() {
+    animateScrollTo(0);
+  }
   render() {
     return (
-      <div className="home-styles">
+      <div className="home-styles" style={{ backgroundColor: "#FDFDFD" }}>
         <NavbarTest />
         <WhiteMenu />
 
@@ -38,7 +41,7 @@ class SobreNosotros extends React.Component {
 
         <div
           className="mx-auto w-75 p-4"
-          style={{ marginTop: "-40px", borderRadius: "10px" }}
+          style={{ marginTop: "-79px", borderRadius: "10px" }}
         >
           <Row className="p-4 shadow p-3 mb-5 bg-white rounded">
             <Col
@@ -98,52 +101,66 @@ class SobreNosotros extends React.Component {
             </Col>
           </Row>
 
-           <Row style={{ marginBottom: '200px'}} > 
+          <Row>
             <Col>
-              <div className="text-center">
-                <p className="t6">Camino en el Tiempo<br></br><span className="t5p2 h4 font-weight-bold">Nuestra Historia</span></p>
+              <div className="text-center p-4">
+                <p className="p-4 t6">
+                  Camino en el Tiempo<br />
+                  <span className="t5p2 h4 font-weight-bold">
+                    Nuestra Historia
+                  </span>
+                </p>
               </div>
             </Col>
           </Row>
         </div>
-        <div className="fondocentro bg-dark mx-auto w-100 h-100 d-flex flex-column align-items-center">
-          <Row className="w-75 shado bg-white rounded">
+        <div className="blacksb mx-auto w-100 h-25">
+        <Row className="w-75 shado bg-white rounded mx-auto">
             <Col md={12} className="mx-auto w-100" style={{marginTop: "-70px", height: '200px', white: ''}}>
-            <TimeLine />
+            <Timeline />
             </Col>
           </Row>
+
           <Row>
-            <Col className="mx-auto text-center h-100 ">
-              <div className=" h3 text-center text-white py-4">
+            <Col md="8" className="mx-auto text-center">
+              <div className="text17p2 text-center pt-4">
                 Más de
                 <span style={{ color: "#DD9835" }}>&nbsp;12 años&nbsp;</span>
                 en el Mercado
               </div>
-              <div className="text-light h6 text-center py-4 p2-ti-movil">
-                Facilitando la comunicación y el manejo de información. Entre los agentes de la cadena productiva
+              <div className="text-light h6 text-center py-4">
+                Facilitando la comunicación y el manejo de información. Entre
+                los agentes de la cadena productiva
               </div>
             </Col>
           </Row>
-          <Row className="w-75 mx-auto bg-light border-top py-4">
+          <Row style={{height: '100px'}}>
             <Col>
-              <div className="t6p2 text-center">
-                Entendiendo como funciona un
-                </div>
-              <div className="t5p2 text-center py-2 h3 font-weight-bold">Sistema de Trazabilidad</div>
+              
             </Col>
           </Row>
         </div>
 
-        <div className="bg-light mx-auto w-75 p-4" style={{ marginTop: '-40px', borderRadius: '10px' }}>
-          <Row className="p-4">
+        <div className="bg-light mx-auto w-75 px-0">
+          <Row className="margeninferior bg-light w-100 shadow" style={{ marginTop: "-90px", borderRadius: "10px", height: '300px'}}>
             <Col md={8} className="mx-auto d-flex flex-column justify-content-center py-4">
+              <div className="t6p2 text-center px-0" style={{ }}>
+                Entendiendo como funciona un
+              </div>
+              <div className="t5p2 text-center py-2 h3 font-weight-bold">
+                Sistema de Trazabilidad
+              </div>
               <div className="t5p2 text-center py-2 h1 font-weight-bold">"</div>
               <div className="t6p2 text-center">
-                La trazabilidad de los alimentos es una  herramienta que debe servir para ejercer un mayor control de los productos. Durante el proceso
-                de producción, todo alimentos sigue un largo y complejo recorrido. A través del sistema de trazabilidad, es posible seguir el rastro de todos
-                 y cada uno de estos pasos, con un triple objetivo:  que los productores aumenten la seguridad, que el consumidor obtenga toda la información necesaria
-                 y que la gestión de cuañquier posible riesgo sea mas rápida y fácil.
-                 <p className="text-dark" >Eroski Consumer, 2013</p>
+                La trazabilidad de los alimentos es una herramienta que debe
+                servir para ejercer un mayor control de los productos. Durante
+                el proceso de producción, todo alimentos sigue un largo y
+                complejo recorrido. A través del sistema de trazabilidad, es
+                posible seguir el rastro de todos y cada uno de estos pasos, con
+                un triple objetivo: que los productores aumenten la seguridad,
+                que el consumidor obtenga toda la información necesaria y que la
+                gestión de cuañquier posible riesgo sea mas rápida y fácil.
+                <p className="text-dark">Eroski Consumer, 2013</p>
               </div>
             </Col>
           </Row>
@@ -151,35 +168,50 @@ class SobreNosotros extends React.Component {
           <Row className="p-4">
             <Col md={6} className="p-4">
               <div className="text-left">
-                <p className="p-0 t6 p2-movil">!InfoPorcinos también es un sistema de Trazabilidad<br></br><span className="t5p2 h3 font-weight-bold">¡Sigue cada proceso<br></br>paso a paso con nuestrar<br></br>Plataforma!</span></p>
+                <p className="p-0 t6">
+                  !InfoPorcinos también es un sistema de Trazabilidad<br />
+                  <span className="t5p2 h3 font-weight-bold">
+                    ¡Sigue cada proceso paso a paso con nuestra Plataforma!
+                  </span>
+                </p>
               </div>
               <div className="t6 text-left py-4">
-                <p className="p2-movil">
-                  Obtém los datos técnicos y genera un registro normalizado sobre cada uno de los pasos dentro del procesamiento de la materia prima.
-                <span className=" font-weight-bold"> No hay digitacion manual de los datos</span>
-                </p>
+                Obtém los datos técnicos y genera un registro normalizado sobre
+                cada uno de los pasos dentro del procesamiento de la materia
+                prima.
+                <span className=" font-weight-bold">
+                  {" "}
+                  No hay digitacion manual de los datos
+                </span>
               </div>
             </Col>
             <Col md={6} className="p-4">
-              <div className="h-75 w-75 cuadroiferior border rounded">
-
-                <img></img>
-              </div>
+              <div className="imag_sobreN"/>
             </Col>
           </Row>
         </div>
-        <Row className="py-4 antesfoo">
+        <Row className="foot p-4">
           <Col md={8} className="p-4 mx-auto">
             <div className="text-center">
-              <p className="p-0 t6">Nuevas aplicaciones, actualizaciones constantes y el mejor soporte<br></br>
-                <span className=" h2 font-weight-bold">Siempre listos para mejorar<span className="t5p2 h2 font-weight-bold"> {' '}nuestros servicios</span> </span></p>
+              <p className="p-0 t6">
+                Nuevas aplicaciones, actualizaciones constantes y el mejor
+                soporte<br />
+                <span className=" h2 font-weight-bold">
+                  Siempre listos para mejorar
+                  <span className="t5p2 h2 font-weight-bold">
+                    {" "}
+                    nuestros servicios
+                  </span>{" "}
+                </span>
+              </p>
             </div>
-            <div className="d-flex justify-content-center">
-              <Button className="Button Buttonvermas mx-auto rounded-pill">Ver más</Button>
+            <div className="d-flex justify-content-center style-foot">
+              <Button className="Button mx-auto">Ver más</Button>
             </div>
           </Col>
         </Row>
-        <Footer />
+
+        <Footer bottomClick={this.bottomClick}/>
       </div>
     );
   }
