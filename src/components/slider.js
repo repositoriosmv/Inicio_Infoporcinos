@@ -126,8 +126,6 @@ export default class Gallery extends React.Component {
     }, 100);
   }
 
-
-
   changeActiveItem = (activeItemIndex) => this.setState({ activeItemIndex });
 
   render() {
